@@ -1,0 +1,389 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meshtastic Srbija – Pocetak</title>
+    <link>https://meshserbia.com/docs/</link>
+    <description>Recent content in Pocetak on Meshtastic Srbija</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr_Latn</language>
+    <lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate>
+    
+	  <atom:link href="https://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Introdukcija</title>
+      <link>https://meshserbia.com/docs/introdukcija/</link>
+      <pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate>
+      
+      <guid>https://meshserbia.com/docs/introdukcija/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;1. Šta je Meshtastic?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-šta-je-meshtastic&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%c5%a1ta-je-meshtastic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
+&lt;h3&gt;Tehnologija&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tehnologija&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tehnologija&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Meshtastic koristi &lt;strong&gt;LoRa&lt;/strong&gt; modulaciju, koja omogućava bežičnu komunikaciju na udaljenostima od nekoliko kilometara, zavisno od terena. Uređaji koji koriste ovu tehnologiju mogu međusobno razmenjivati poruke, deliti lokaciju putem GPS-a, i biti povezani u mrežu koja ne zavisi od centralizovanih infrastruktura.&lt;/p&gt;
+&lt;h3&gt;Upotreba&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;upotreba&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#upotreba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Meshtastic je idealan za:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Komunikaciju u &lt;strong&gt;vanrednim situacijama&lt;/strong&gt; gde tradicionalne mreže nisu dostupne.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Planinarenje i kampovanje&lt;/strong&gt;, gde mobilna signalna pokrivenost nije garantovana.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Udaljene oblasti&lt;/strong&gt; sa malim pristupom internet mrežama.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sta mi je potrebno da pocnem?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;sta-mi-je-potrebno-da-pocnem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sta-mi-je-potrebno-da-pocnem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Da biste započeli korišćenje Meshtastic mreže, prvo je potrebno da nabavite uređaj koji je kompatibilan sa Meshtastic-om. Na sledećoj stranici nalaze se naše preporuke za uređaje koje možete koristiti. Takođe, preporučujemo da pažljivo pročitate ova uputstva do kraja.&lt;/p&gt;
+&lt;p&gt;Neki uređaji su veoma jednostavni za upotrebu i dolaze u formi &amp;ldquo;sve-u-jednom&amp;rdquo; paketa — poput SEED Trackera — koji je potrebno samo uključiti i spreman je za rad. Drugi uređaji zahtevaju kompleksniju konfiguraciju i više tehničkog znanja.&lt;/p&gt;
+&lt;p&gt;Biće vam potrebna i odgovarajuća antena. Antene koje dolaze uz uređaje često nisu dovoljne za postizanje velikog dometa, pa se preporučuje korišćenje kvalitetnijih, namenski pravljenih antena koje značajno poboljšavaju performanse.&lt;/p&gt;
+&lt;p&gt;Izgled i konstrukcija vašeg nod-a zavisiće od njegove namene:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stacionarni nod kod kuće&lt;/strong&gt;: Ako uređaj planirate da koristite kod kuće, preporučuje se ESP32 modul povezan na internet (kao klijent) sa boljom antenom za povećan domet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solarni repetitor&lt;/strong&gt;: Za ovu svrhu je ključna niska potrošnja energije i jaka antena. Preporučuje se korišćenje nRF52 čipa sa velikom antenom.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobilni nodovi&lt;/strong&gt;: Ako pravite prenosive uređaje koje ćete nositi sa sobom ili davati prijateljima koji nisu tehnički potkovani, birajte diskretne, elegantne i jednostavne za korišćenje nodove.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Kako se povezati na Srpsku meshtastic mrežu</title>
+      <link>https://meshserbia.com/docs/howtousemeshtastic/</link>
+      <pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate>
+      
+      <guid>https://meshserbia.com/docs/howtousemeshtastic/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;Ažuriranje uređaja&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ažuriranje-uređaja&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a%c5%beuriranje-ure%c4%91aja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Pratite instrukcije na ekranu.&lt;/p&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – &lt;strong&gt;&amp;ldquo;wipe settings&amp;rdquo;&lt;/strong&gt;. Opcija &lt;strong&gt;&amp;ldquo;Bundle WebUI&amp;rdquo;&lt;/strong&gt; treba da bude isključena.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-orange-100 hx-bg-orange-50 hx-text-orange-800 dark:hx-border-orange-400/30 dark:hx-bg-orange-400/20 dark:hx-text-orange-300&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;🌐&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 1;&#34;&gt;
+&lt;a
+  class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://flasher.meshtastic.org/&#34;
+    target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z&#34;/&gt;&lt;/svg&gt;Ažuriraj Meshtastic&lt;/span&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+  &lt;div class=&#34;hx-inline-flex hx-gap-1 hx-items-center hx-rounded-full hx-px-2.5 hx-leading-6 hx-text-[.65rem] hx-border hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;Flasher&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h3&gt;⚙️ Podesavanja&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-podesavanja&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-podesavanja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800&#34;&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-0&#34; aria-selected=&#34;true&#34;  tabindex=&#34;0&#34;  data-state=&#34;selected&#34;&gt;📶 LoRa&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-1&#34;&gt;🌐 MQTT&lt;/button&gt;&lt;button
+        class=&#34;hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 data-[state=selected]:dark:hx-border-primary-500 data-[state=selected]:dark:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white&#34;
+        role=&#34;tab&#34;
+        type=&#34;button&#34;
+        aria-controls=&#34;tabs-panel-2&#34;&gt;📡 Channel&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-0&#34;
+  role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-amber-200 hx-bg-amber-100 hx-text-amber-900 dark:hx-border-amber-200/30 dark:hx-bg-amber-900/30 dark:hx-text-amber-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Opcija&lt;/th&gt;
+          &lt;th&gt;Preporučena vrednost&lt;/th&gt;
+          &lt;th&gt;Uključeno?&lt;/th&gt;
+          &lt;th&gt;Objašnjenje&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Use modem preset&lt;/td&gt;
+          &lt;td&gt;✅ (uključeno)&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Automatski primenjuje podešeni skup parametara za LoRa komunikaciju&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Modem preset&lt;/td&gt;
+          &lt;td&gt;MEDIUM_FAST&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Balans brzine i dometa.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frequency offset (MHz)&lt;/td&gt;
+          &lt;td&gt;0.0&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Korekcija frekvencije (koristi se samo ako si primetio odstupanje signala)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Region (frequency plan)&lt;/td&gt;
+          &lt;td&gt;EU_868&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Obavezno za Evropu – koristi dozvoljene frekvencije&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hop limit&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Koliko puta poruka može da se &amp;ldquo;prenese&amp;rdquo; između nodova&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TX enabled&lt;/td&gt;
+          &lt;td&gt;✅ (uključeno)&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Uređaj može da emituje (ne samo da sluša)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TX power (dBm)&lt;/td&gt;
+          &lt;td&gt;30&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Snaga signala. 30 dBm je maksimum.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frequency slot&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Ne diraj&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Override Duty Cycle&lt;/td&gt;
+          &lt;td&gt;❌ (isključeno)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;Prekoračuje pravila EU o dozvoljenom emitovanju&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ignore incoming&lt;/td&gt;
+          &lt;td&gt;❌ (isključeno)&lt;/td&gt;
+          &lt;td&gt;❌&lt;/td&gt;
+          &lt;td&gt;Ako uključiš, uređaj ignoriše sve dolazne poruke (ne preporučuje se)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-1&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-amber-200 hx-bg-amber-100 hx-text-amber-900 dark:hx-border-amber-200/30 dark:hx-bg-amber-900/30 dark:hx-text-amber-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;📌 &lt;em&gt;Nakon podešavanja MQTT-a, obavezno &lt;strong&gt;restartuj&lt;/strong&gt; uređaj. Postoji bug u firmware-u koji sprečava povezivanje bez restarta.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Opcija&lt;/th&gt;
+          &lt;th&gt;Preporučena vrednost&lt;/th&gt;
+          &lt;th&gt;Uključeno?&lt;/th&gt;
+          &lt;th&gt;Objašnjenje&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MQTT enabled&lt;/td&gt;
+          &lt;td&gt;✅ (uključeno)&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Uključuje MQTT integraciju za povezivanje sa internet mrežom&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Address&lt;/td&gt;
+          &lt;td&gt;mesh.nemanja.top:1884&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;IP ili domen MQTT servera + port&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Username&lt;/td&gt;
+          &lt;td&gt;meshserbia&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Korisničko ime za autentifikaciju na MQTT server&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Password&lt;/td&gt;
+          &lt;td&gt;meshserbia&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Lozinka za autentifikaciju&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Encryption enabled&lt;/td&gt;
+          &lt;td&gt;✅ (uključeno)&lt;/td&gt;
+          &lt;td&gt;✔️&lt;/td&gt;
+          &lt;td&gt;Šifruje podatke između uređaja i MQTT servera&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;JSON output enabled&lt;/td&gt;
+          &lt;td&gt;❌ (isključeno)&lt;/td&gt;
+          &lt;td&gt;❌&lt;/td&gt;
+          &lt;td&gt;Ne diraj&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TLS enabled&lt;/td&gt;
+          &lt;td&gt;❌ (isključeno)&lt;/td&gt;
+          &lt;td&gt;❌&lt;/td&gt;
+          &lt;td&gt;Ne diraj, koristi TLS port&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Root topic&lt;/td&gt;
+          &lt;td&gt;msh/EU_868&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Osnovni MQTT topic koji uređaj koristi za razmenu podataka&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Proxy to client enabled&lt;/td&gt;
+          &lt;td&gt;❓- Zavisi&lt;/td&gt;
+          &lt;td&gt;❓&lt;/td&gt;
+          &lt;td&gt;Prosleđuje internet sa telefona ka uređaju, ako se povezujete preko bluetootha uključite ovo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Map reporting&lt;/td&gt;
+          &lt;td&gt;❓&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;Šalje GPS lokacije na mapu – može trošiti bateriju i narušiti privatnost&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Map reporting interval&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;–&lt;/td&gt;
+          &lt;td&gt;Vreme između slanja lokacije u sekundama. 0 = isključeno&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;Ako koristiš bluetooth i MQTT, uključi &lt;strong&gt;Proxy to client&lt;/strong&gt;, inače nećeš imati pristup MQTT mreži.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div
+  class=&#34;hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block&#34;
+  id=&#34;tabs-panel-2&#34;
+  role=&#34;tabpanel&#34;&gt;&lt;ul&gt;
+&lt;li&gt;Omogući &lt;strong&gt;downlink&lt;/strong&gt; i &lt;strong&gt;uplink&lt;/strong&gt; na &lt;code&gt;MediumFast&lt;/code&gt; kanalu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Parametar&lt;/th&gt;
+          &lt;th&gt;Vrednost&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Channel Name&lt;/td&gt;
+          &lt;td&gt;MediumFast&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PSK&lt;/td&gt;
+          &lt;td&gt;AQ==&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Uplink Enabled&lt;/td&gt;
+          &lt;td&gt;✅ Uključeno&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Downlink Enabled&lt;/td&gt;
+          &lt;td&gt;✅ Uključeno&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-amber-200 hx-bg-amber-100 hx-text-amber-900 dark:hx-border-amber-200/30 dark:hx-bg-amber-900/30 dark:hx-text-amber-200&#34;&gt;
+  &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;&lt;p&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt; ako već nisi.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h2&gt;Prvo korišćenje&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;prvo-korišćenje&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#prvo-kori%c5%a1%c4%87enje&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.&lt;/p&gt;
+&lt;h4&gt;🤖 Bot komande&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-bot-komande&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-bot-komande&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;nodeinfo&lt;/code&gt; – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weather&lt;/code&gt; – Komanda za vremensku prognozu, npr: &lt;code&gt;weather novi sad&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;📊 Grafana&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;-grafana&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-grafana&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Prati stanje mreže u realnom vremenu:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Korisničko ime&lt;/th&gt;
+          &lt;th&gt;Lozinka&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;meshserbia&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;meshserbia&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 1;&#34;&gt;
+&lt;a
+  class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;https://stats.nemanja.top/d/advjb2pz7wn40f/meshtastic?orgId=1&#34;
+    target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z&#34;/&gt;&lt;/svg&gt;Otvori dashboard 📈&lt;/span&gt;&lt;div class=&#34;hextra-badge hextra-card-tag&#34;&gt;
+  &lt;div class=&#34;hx-inline-flex hx-gap-1 hx-items-center hx-rounded-full hx-px-2.5 hx-leading-6 hx-text-[.65rem] hx-border hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;Grafana&lt;/div&gt;
+&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Kako Koristiti Meshtastic Aplikaciju</title>
+      <link>https://meshserbia.com/docs/howtomeshtastic/</link>
+      <pubDate>Sun, 13 Apr 2025 20:08:16 +0200</pubDate>
+      
+      <guid>https://meshserbia.com/docs/howtomeshtastic/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Solarni Repetitor</title>
+      <link>https://meshserbia.com/docs/solarnode/</link>
+      <pubDate>Sun, 13 Apr 2025 20:10:51 +0200</pubDate>
+      
+      <guid>https://meshserbia.com/docs/solarnode/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
