@@ -34,7 +34,7 @@ layout: hextra-home
 
 {{< hextra/feature-card
     title="Šta je Meshtastic?"
-    subtitle="Open-source LoRa mreža koja omogućava slanje poruka bez interneta. Idealno za planinarenje, vanredne situacije, DIY projekte i još mnogo toga."
+    subtitle="Meshtastic je mali uređaj koji omogućava slanje poruka bez interneta ili mobilne mreže. Koristan je u planinama, selima ili van mrežnog signala."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(57, 255, 20, 0.30), hsla(0, 0%, 100%, 0));"
@@ -42,7 +42,7 @@ layout: hextra-home
 
 {{< hextra/feature-card
     title="Vodiči i tutorijali"
-    subtitle="Od prvog podešavanja do naprednih opcija kao što su solarni nodovi, MQTT integracija i senzori."
+    subtitle="Na ovoj stranici nalazi se jednostavan vodič koji ti korak po korak pokazuje kako da koristiš Meshtastic."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(255,255,0, 0.30), hsla(0,0%,100%,0));"
@@ -50,7 +50,7 @@ layout: hextra-home
 
 {{< hextra/feature-card
     title="Solarni nodovi i pokrivenost"
-    subtitle="Napravi sopstveni autonomni Meshtastic nod sa solarnim napajanjem za planinu, selo ili vikendicu."
+    subtitle="Napravi svoj Meshtastic uređaj na solarnu energiju – idealan za planinu, selo ili vikendicu, bez potrebe za strujom."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(255,165,0,0.30), hsla(0,0%,100%,0));"
@@ -64,12 +64,12 @@ layout: hextra-home
 
 {{< hextra/feature-card
     title="Radi svuda, bez mreže"
-    subtitle="Komunikacija bez SIM kartica i pretplata. Samo uređaji i antene."
+    subtitle=" Možeš da šalješ poruke i kad nema interneta ili signala – bez SIM kartica, bez plaćanja, samo uz uređaje."
   >}}
 
 {{< hextra/feature-card
     title="Laka integracija"
-    subtitle="Koristi MQTT i Meshtastic aplikaciju da se povežeš sa svojim prijateljima"
+    subtitle="Meshtastic možeš lako da povežeš sa telefonom pomoću aplikacije, a uz internet vezu možeš da šalješ poruke i kad si daleko od drugih."
   >}}
 
 {{< /hextra/feature-grid >}}
