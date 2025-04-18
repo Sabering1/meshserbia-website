@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meshtastic Srbija – Pocetak</title>
-    <link>https://meshserbia.com/docs/</link>
+    <link>http://meshserbia.com/docs/</link>
     <description>Recent content in Pocetak on Meshtastic Srbija</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sr_Latn</language>
     <lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate>
     
-	  <atom:link href="https://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Introdukcija</title>
-      <link>https://meshserbia.com/docs/introdukcija/</link>
+      <link>http://meshserbia.com/docs/introdukcija/</link>
       <pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/introdukcija/</guid>
+      <guid>http://meshserbia.com/docs/introdukcija/</guid>
       <description>
         
         
@@ -52,10 +52,10 @@
     
     <item>
       <title>Kako se povezati na Srpsku meshtastic mrežu</title>
-      <link>https://meshserbia.com/docs/howtousemeshtastic/</link>
+      <link>http://meshserbia.com/docs/howtousemeshtastic/</link>
       <pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/howtousemeshtastic/</guid>
+      <guid>http://meshserbia.com/docs/howtousemeshtastic/</guid>
       <description>
         
         
@@ -361,10 +361,10 @@
     
     <item>
       <title>Kako Koristiti Meshtastic Aplikaciju</title>
-      <link>https://meshserbia.com/docs/howtomeshtastic/</link>
+      <link>http://meshserbia.com/docs/howtomeshtastic/</link>
       <pubDate>Sun, 13 Apr 2025 20:08:16 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/howtomeshtastic/</guid>
+      <guid>http://meshserbia.com/docs/howtomeshtastic/</guid>
       <description>
         
         
@@ -391,13 +391,13 @@
   id=&#34;tabs-panel-0&#34;
   role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;p&gt;Meshtastic Android aplikacija se koristi za komunikaciju i može prikazati lokaciju svih članova vaše grupe. Svaki član vaše grupe može videti ako dozvoli lokaciju i udaljenost drugih članova, kao i poruke poslate u vaš grupni chat.&lt;/p&gt;
 &lt;p&gt;Mozete napraviti i privatni enkriptovani kanal gde samo vi i izabrani clanovi mogu videte sta se pise.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.0nema-povezanog.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.0nema-povezanog.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Otvorite aplikaciju i treba da vidite karticu &amp;ldquo;Podešavanja&amp;rdquo; kao na ekranu iznad. Obratite pažnju na oblak sa crtom kroz njega u gornjem desnom uglu, što označava da uređajaj nije povezan sa telefonom. Možete prelaziti kroz kartice, ali ništa mnogo neće biti vidljivo dok ne povežete vas meshtastic uređaj.&lt;/p&gt;
 &lt;h2&gt;Povezivanje&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;povezivanje&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#povezivanje&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Biće vam potreban uređaj sa instaliranim Meshtastic-om da biste nastavili dalje. Pogledajte odsek za &lt;a href=&#34;https://meshserbia.com/docs/howtousemeshtastic/&#34; &gt;početak korišćenja&lt;/a&gt; za informacije o tome kako to da uradite.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.1klik-na-dugme.webp&#34; width=&#34;300&#34;&gt;
+    &lt;a href=&#34;#povezivanje&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Biće vam potreban uređaj sa instaliranim Meshtastic-om da biste nastavili dalje. Pogledajte odsek za &lt;a href=&#34;http://meshserbia.com/docs/howtousemeshtastic/&#34; &gt;početak korišćenja&lt;/a&gt; za informacije o tome kako to da uradite.&lt;/p&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.1klik-na-dugme.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Da biste pronašli uređaje za povezivanje putem Bluetooth-a, kliknite na &amp;ldquo;+&amp;rdquo; dugme u donjem desnom uglu. Uređaji povezani putem Wi-Fi-a koji koriste istu mrežu kao vaš telefon trebalo bi da budu automatski prepoznati, ili ih možete ručno odabrati unosom njihove IP adrese. Ako povežete uređaj putem USB-a na vaš telefon,uredjaj ce biće automatski prepoznat.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.2.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.2.webp&#34; width=&#34;300&#34;&gt;
 &lt;ol&gt;
 &lt;li&gt;Odaberite uređaj, &lt;code&gt;Meshtastic_769d&lt;/code&gt; u ovom primeru. (Videćete sve uređaje u dometu, pa pazite da odaberete pravi.)&lt;/li&gt;
 &lt;li&gt;Pre nego što se povežete prvi put, potrebno je da &amp;ldquo;uparite&amp;rdquo; uređaje kako bi omogućili komunikaciju između njih. Neki uređaji su bez PIN-a, dok drugi zahtevaju unos PIN-a prikazanog na ekranu uređaja.&lt;/li&gt;
@@ -412,9 +412,9 @@
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Ovo pokreće komunikaciju sa uređajem. Ikona oblaka na statusnoj traci trebalo bi da se promeni i pokaže checkmark.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.3.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.3.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Ikona oblaka u gornjem desnom uglu pokazuje da li ste povezani sa uređajem. Trenutno ima tri stanja:&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.4spojeno-bez-teksta.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.4spojeno-bez-teksta.webp&#34; width=&#34;300&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Oblak sa kvačicom: Uređaj je povezan sa aplikacijom.&lt;/p&gt;
@@ -429,7 +429,7 @@
 &lt;h2&gt;Uobicajena podesavanja&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;uobicajena-podesavanja&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#uobicajena-podesavanja&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Promenite svoje korisnicko ime&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;promenite-svoje-korisnicko-ime&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#promenite-svoje-korisnicko-ime&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Izmenite polje &amp;ldquo;Your Name&amp;rdquo;, na primer u &amp;ldquo;Mike Bird&amp;rdquo;. Ovo je ime koje će drugi ljudi videti, zato ga učinite jedinstvenim. Inicijali, npr. &amp;ldquo;MB&amp;rdquo;, takođe treba da budu jedinstveni i koristiće se za identifikaciju u porukama i na ekranima uređaja. Inicijali se mogu prilagoditi u podešavanjima radio uređaja, pod sekcijom korisnička podešavanja. Četiri karaktera prikazana posle vaših inicijala ne mogu se promeniti. Uređaji bez podešenog imena prikazivaće tih četiri karaktera kao inicijale uređaja.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.5promeni-ime.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.5promeni-ime.webp&#34; width=&#34;300&#34;&gt;
 &lt;h3&gt;Napravite novi kanal&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;napravite-novi-kanal&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#napravite-novi-kanal&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
   &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
@@ -440,7 +440,7 @@
 &lt;/div&gt;
 &lt;p&gt;Možete kreirati novi kanal i podeliti detalje sa svojom grupom. Grupa je privatna i samo oni koji imaju te informacije mogu se pridružiti i videti poruke. Ovo je potrebno uraditi samo jednom na početku, i zatim svaki put kada želite da promenite ili napravite novu mesh mrežu.&lt;/p&gt;
 &lt;p&gt;Kartica „Channel“ omogućava vam da napravite novu privatnu mesh mrežu. Ovaj ekran je prvobitno zaključan kako biste izbegli slučajne izmene. Pritisnite ikonu katanca kako biste omogućili izmenu. Prvo izaberite opcije kanala, kao što je prikazano ovde, i odaberite najprikladniju opciju:&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.6zameni-me-kako-se-pravi-kanal.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.6zameni-me-kako-se-pravi-kanal.webp&#34; width=&#34;300&#34;&gt;
 &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
   &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
 
@@ -449,15 +449,15 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Ovde smo izabrali &lt;code&gt;Long Range / Fast&lt;/code&gt;, a zatim napravili ime kanala. Ovo identifikuje vašu grupu, u ovom slucaju &amp;ldquo;Owl Team&amp;rdquo;.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.7owl-team.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.7owl-team.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Videćete upozorenje jer promena kanala prekida komunikaciju sa vašom grupom, tj. ako promenite podešavanja bez deljenja novih detalja sa grupom.&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.8savechannel.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.8savechannel.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Aplikacija će generisati novi QR kod na ekranu. On sadrži detalje o kanalu i nasumični 256-bitni ključ za deljenje sa novom grupom. QR kod možete podeliti sa drugim Meshtastic korisnicima ili koristiti dugme Share i podeliti link putem poruke, SMS-a ili email-a. Link ce izgledati ovako: &lt;code&gt;https://www.meshtastic.org/d/#CgUYAyIBAQ&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Pridruži se kanalu&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pridruži-se-kanalu&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#pridru%c5%bei-se-kanalu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Ako drugi korisnik podeli QR kod, moći ćete da ga skenirate direktno kamerom pomoću dugmeta &lt;code&gt;Scan&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/1.9qrscan.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/1.9qrscan.webp&#34; width=&#34;300&#34;&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Ako je kanal podeljen iz fajla ili linka pomoću dugmeta &lt;code&gt;Share&lt;/code&gt;, možete kliknuti na fajl ili link i treba da izaberete &amp;ldquo;Otvori pomoću Meshtastic&amp;rdquo;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -473,7 +473,7 @@
 &lt;li&gt;Uveri se da u opciji &amp;ldquo;linkovi/web adrese&amp;rdquo; stoji: &lt;a href=&#34;https://www.meshtastic.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.meshtastic.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ako vidiš opciju &amp;ldquo;Otvori podržane linkove&amp;rdquo;, uveri se da je omogućena.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.0novi-kanal.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.0novi-kanal.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Nastavite i trebalo bi da vidite poruku kao što je &amp;ldquo;Želite li da pređete na kanal &amp;lsquo;Owl Team&amp;rsquo;?&amp;rdquo;. Prihvatite ovo, i aplikacija će preći na ovaj novi kanal. Izgubićete trenutno podešeno podešavanje kanala!&lt;/p&gt;
 &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200&#34;&gt;
   &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;Note&lt;/p&gt;
@@ -494,14 +494,14 @@
 &lt;h4&gt;Preciznost pozicije&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;preciznost-pozicije&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#preciznost-pozicije&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Nivoi preciznosti u aplikaciji predstavljaju udaljenost unutar koje se možete nalaziti u odnosu na neku tačku (ali ne vašu trenutnu lokaciju). Možete to zamisliti kao kružnicu oko te tačke, gde što je veći krug, manje je precizno određeno vaše mesto unutar njega. Ovo je koristno ako zelite da podelite gde se nalazi vas urecaj ali ne preciznu lokaciju, (npr, samo grad ili deo grada, ali ne tacnu lokaciju)&lt;/p&gt;
 &lt;h3&gt;Slanje poruka&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;slanje-poruka&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#slanje-poruka&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.1dopisivanje.webp&#34; width=&#34;300&#34;&gt;
+    &lt;a href=&#34;#slanje-poruka&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.1dopisivanje.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Prozor za poruke funkcioniše kao u većini aplikacija za dopisivanje. Imajte na umu da je vaš primarni kanal, tj. kontakt &lt;code&gt;LongFast&lt;/code&gt;, uvek prikazan i funkcioniše kao grupni chat. Ostali kontakti su za direktne poruke ili privatne grupne chatove.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dugim pritiskom na kontakte ili poruke možete odabrati opcije, kao što je brisanje.&lt;/li&gt;
 &lt;li&gt;Pritisnite nod sa sekcije NODES za slanje Direktnih Poruka (DM) .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Sa LoRa (ili bilo kojim radijem) postoji određena nesigurnost u vezi sa tim da li je poruka primljena, pa postoji potvrda ugrađena u protokol (Funkcionise slicno kao &lt;code&gt;seen&lt;/code&gt; funkcija na whatsapp-u ili Viber-u ). Male ikonice su prikazane desno od poruka koje šaljete:&lt;/p&gt;
-&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.2ikonice.webp&#34; width=&#34;300&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.2ikonice.webp&#34; width=&#34;300&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Oblak sa strelicom nagore: poruka čeka da bude poslata preko uređaja.&lt;/p&gt;
@@ -521,7 +521,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Podrazumevano ne postoji dugoročno čuvanje i prosleđivanje poruka, tako da poruke koje nisu primljene tokom prenosa – gube se.&lt;/p&gt;
 &lt;h3&gt;Mreza&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;mreza&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#mreza&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.5nod-lista.webp&#34; width=&#34;300&#34;&gt;
+    &lt;a href=&#34;#mreza&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.5nod-lista.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Tab nodova prikazuje sve korisnike (uređaje) koji su se povezali na isti kanal. Za svaki nod prikazuje se vreme poslednje aktivnosti, lokaciju i udaljenost (kada su dostupne), kao i poslednje poznato stanje baterije. U gornjem primeru, Monkey je lokalni korisnik, Rabbit je poslednji put primećen pre 10 minuta i udaljen je 50m, a Panda je poslednji put primećena pre 11 minuta i udaljena je 5m.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tapnite na nod na listi da biste prikazali više detalja o njemu.&lt;/li&gt;
@@ -530,10 +530,10 @@
 &lt;li&gt;Ako imate omogućen &lt;a href=&#34;https://meshtastic.org/docs/configuration/remote-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Admin Kanal&lt;/a&gt; na svojim uređajima, tapkanje na obojeni deo čvora takođe prikazuje opciju za daljinsko konfigurisanje nod-a.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Prikaži mapu&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;prikaži-mapu&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#prika%c5%bei-mapu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.3mapa.webp&#34; width=&#34;300&#34;&gt;
+    &lt;a href=&#34;#prika%c5%bei-mapu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.3mapa.webp&#34; width=&#34;300&#34;&gt;
 &lt;p&gt;Sekcija mape prikazuje lokalnu mapu sa ikonicom za svaki aktivni mesh nod koji ima podeljenu lokaciju sa drugima. Imena korisnika su prikazana iznad ikonica.&lt;/p&gt;
 &lt;h3&gt;Offline mape&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;offline-mape&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#offline-mape&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;https://meshserbia.com/images/android-tutorial/2.4skinimapu.webp&#34; width=&#34;300&#34;&gt;
+    &lt;a href=&#34;#offline-mape&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src=&#34;http://meshserbia.com/images/android-tutorial/2.4skinimapu.webp&#34; width=&#34;300&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;Neki tipovi mapa omogućavaju preuzimanje za korišćenje kada nema interneta. Ako su offline mape dostupne za izabrani tip mape, ikonica za preuzimanje će se pojaviti u donjem desnom uglu mape. Tapnite na ovu ikonicu i izaberite opciju &lt;strong&gt;Preuzmi region&lt;/strong&gt;, zatim označite oblast koju želite da preuzmete.&lt;/li&gt;
 &lt;/ul&gt;
@@ -561,7 +561,7 @@
 &lt;li&gt;Hostovana verzija dostupna na client.meshtastic.org. (Preporuceno)&lt;/li&gt;
 &lt;li&gt;Hosting na sopstvenom serveru. (Napredni korisnici)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src=&#34;https://meshserbia.com/images/web-tutorial/1.0pregled.webp&#34; width=&#34;600&#34;&gt;
+&lt;img src=&#34;http://meshserbia.com/images/web-tutorial/1.0pregled.webp&#34; width=&#34;600&#34;&gt;
 &lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200&#34;&gt;
   &lt;p class=&#34;hx-flex hx-items-center hx-font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx-inline-block hx-align-middle hx-mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
 
@@ -578,10 +578,10 @@
     
     <item>
       <title>Solarni Repetitor</title>
-      <link>https://meshserbia.com/docs/solarnode/</link>
+      <link>http://meshserbia.com/docs/solarnode/</link>
       <pubDate>Sun, 13 Apr 2025 20:10:51 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/solarnode/</guid>
+      <guid>http://meshserbia.com/docs/solarnode/</guid>
       <description>
         
         
@@ -591,10 +591,10 @@
     
     <item>
       <title>Cesto Postavljana Pitanja</title>
-      <link>https://meshserbia.com/docs/cestopostavljanapitanja/</link>
+      <link>http://meshserbia.com/docs/cestopostavljanapitanja/</link>
       <pubDate>Sun, 13 Apr 2025 17:18:27 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/cestopostavljanapitanja/</guid>
+      <guid>http://meshserbia.com/docs/cestopostavljanapitanja/</guid>
       <description>
         
         
@@ -604,10 +604,10 @@
     
     <item>
       <title>Napredna Podesavanja</title>
-      <link>https://meshserbia.com/docs/naprednapodesavanja/</link>
+      <link>http://meshserbia.com/docs/naprednapodesavanja/</link>
       <pubDate>Sun, 13 Apr 2025 17:18:27 +0200</pubDate>
       
-      <guid>https://meshserbia.com/docs/naprednapodesavanja/</guid>
+      <guid>http://meshserbia.com/docs/naprednapodesavanja/</guid>
       <description>
         
         
