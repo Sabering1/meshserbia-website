@@ -2,83 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://meshserbia.com/docs/introdukcija/</loc>
+    <loc>http://meshserbia.com/docs/introdukcija/</loc>
     <lastmod>2025-04-13T20:06:28+02:00</lastmod>
   </url><url>
-    <loc>https://meshserbia.com/docs/howtousemeshtastic/</loc>
+    <loc>http://meshserbia.com/docs/howtousemeshtastic/</loc>
     <lastmod>2025-04-13T20:10:24+02:00</lastmod>
   </url><url>
-    <loc>https://meshserbia.com/docs/howtomeshtastic/</loc>
+    <loc>http://meshserbia.com/docs/howtomeshtastic/</loc>
     <lastmod>2025-04-13T20:08:16+02:00</lastmod>
   </url><url>
-    <loc>https://meshserbia.com/</loc>
+    <loc>http://meshserbia.com/docs/cestopostavljanapitanja/</loc>
+    <lastmod>2025-04-13T17:18:27+02:00</lastmod>
+  </url><url>
+    <loc>http://meshserbia.com/docs/naprednapodesavanja/</loc>
+    <lastmod>2025-04-13T17:18:27+02:00</lastmod>
+  </url><url>
+    <loc>http://meshserbia.com/</loc>
     <lastmod>2025-04-13T20:10:51+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/"
+                href="http://meshserbia.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/"
+                href="http://meshserbia.com/sr_cyrl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/"
+                href="http://meshserbia.com/"
                 />
   </url><url>
-    <loc>https://meshserbia.com/docs/solarnode/</loc>
+    <loc>http://meshserbia.com/docs/solarnode/</loc>
     <lastmod>2025-04-13T20:10:51+02:00</lastmod>
   </url><url>
-    <loc>https://meshserbia.com/docs/cestopostavljanapitanja/</loc>
+    <loc>http://meshserbia.com/docs/</loc>
     <lastmod>2025-04-13T17:18:27+02:00</lastmod>
   </url><url>
-    <loc>https://meshserbia.com/docs/naprednapodesavanja/</loc>
-    <lastmod>2025-04-13T17:18:27+02:00</lastmod>
-  </url><url>
-    <loc>https://meshserbia.com/docs/</loc>
-    <lastmod>2025-04-13T17:18:27+02:00</lastmod>
-  </url><url>
-    <loc>https://meshserbia.com/categories/</loc>
+    <loc>http://meshserbia.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/categories/"
+                href="http://meshserbia.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/categories/"
+                href="http://meshserbia.com/sr_cyrl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/categories/"
+                href="http://meshserbia.com/categories/"
                 />
   </url><url>
-    <loc>https://meshserbia.com/about/</loc>
+    <loc>http://meshserbia.com/about/</loc>
   </url><url>
-    <loc>https://meshserbia.com/showcase/</loc>
+    <loc>http://meshserbia.com/showcase/</loc>
   </url><url>
-    <loc>https://meshserbia.com/tags/</loc>
+    <loc>http://meshserbia.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/tags/"
+                href="http://meshserbia.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/tags/"
+                href="http://meshserbia.com/sr_cyrl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/tags/"
+                href="http://meshserbia.com/tags/"
                 />
   </url><url>
-    <loc>https://meshserbia.com/blog/</loc>
+    <loc>http://meshserbia.com/blog/</loc>
   </url>
 </urlset>

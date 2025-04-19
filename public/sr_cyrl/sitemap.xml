@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://meshserbia.com/sr_cyrl/categories/</loc>
+    <loc>http://meshserbia.com/sr_cyrl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/categories/"
+                href="http://meshserbia.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/categories/"
+                href="http://meshserbia.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/categories/"
+                href="http://meshserbia.com/sr_cyrl/categories/"
                 />
   </url><url>
-    <loc>https://meshserbia.com/sr_cyrl/</loc>
+    <loc>http://meshserbia.com/sr_cyrl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/"
+                href="http://meshserbia.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/"
+                href="http://meshserbia.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/"
+                href="http://meshserbia.com/sr_cyrl/"
                 />
   </url><url>
-    <loc>https://meshserbia.com/sr_cyrl/tags/</loc>
+    <loc>http://meshserbia.com/sr_cyrl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://meshserbia.com/en/tags/"
+                href="http://meshserbia.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Latn"
-                href="https://meshserbia.com/tags/"
+                href="http://meshserbia.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr_Cyrl"
-                href="https://meshserbia.com/sr_cyrl/tags/"
+                href="http://meshserbia.com/sr_cyrl/tags/"
                 />
   </url>
 </urlset>

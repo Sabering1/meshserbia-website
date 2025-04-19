@@ -27,7 +27,7 @@ Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje 
 
 ---
 
-### ⚙️ Podesavanja
+### ⚙️ Podešavanja
 
 {{< tabs items="📶 LoRa,🌐 MQTT,📡 Channel" >}}
 

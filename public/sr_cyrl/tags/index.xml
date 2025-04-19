@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Мештастик Србија – Tags</title>
-    <link>https://meshserbia.com/sr_cyrl/tags/</link>
+    <link>http://meshserbia.com/sr_cyrl/tags/</link>
     <description>Recent content in Tags on Мештастик Србија</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sr_Cyrl</language>
     
-	  <atom:link href="https://meshserbia.com/sr_cyrl/tags/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://meshserbia.com/sr_cyrl/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
       

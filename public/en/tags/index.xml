@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meshtastic Serbia – Tags</title>
-    <link>https://meshserbia.com/en/tags/</link>
+    <link>http://meshserbia.com/en/tags/</link>
     <description>Recent content in Tags on Meshtastic Serbia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="https://meshserbia.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://meshserbia.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
       

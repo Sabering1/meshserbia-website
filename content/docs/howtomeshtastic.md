@@ -13,12 +13,12 @@ Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtas
 
 Meshtastic Android aplikacija se koristi za komunikaciju i može prikazati lokaciju svih članova vaše grupe. Svaki član vaše grupe može videti ako dozvoli lokaciju i udaljenost drugih članova, kao i poruke poslate u vaš grupni chat.
 
-Mozete napraviti i privatni enkriptovani kanal gde samo vi i izabrani clanovi mogu videte sta se pise.
+Možete napraviti i privatni enkriptovani kanal gde samo vi i izabrani članovi mogu videti sadržaj poruka.
 
 <img src="/images/android-tutorial/1.0nema-povezanog.webp" width="300">
 
 
-Otvorite aplikaciju i treba da vidite karticu "Podešavanja" kao na ekranu iznad. Obratite pažnju na oblak sa crtom kroz njega u gornjem desnom uglu, što označava da uređajaj nije povezan sa telefonom. Možete prelaziti kroz kartice, ali ništa mnogo neće biti vidljivo dok ne povežete vas meshtastic uređaj.
+Otvorite aplikaciju i treba da vidite karticu "Podešavanja" kao na ekranu iznad. Obratite pažnju na oblak sa crtom kroz njega u gornjem desnom uglu, što označava da uređajaj nije povezan sa telefonom. Možete prelaziti kroz kartice, ali ništa mnogo neće biti vidljivo dok ne povežete vaš meshtastic uređaj.
 
 ## Povezivanje
 
@@ -26,7 +26,7 @@ Biće vam potreban uređaj sa instaliranim Meshtastic-om da biste nastavili dalj
 
 <img src="/images/android-tutorial/1.1klik-na-dugme.webp" width="300">
 
-Da biste pronašli uređaje za povezivanje putem Bluetooth-a, kliknite na "+" dugme u donjem desnom uglu. Uređaji povezani putem Wi-Fi-a koji koriste istu mrežu kao vaš telefon trebalo bi da budu automatski prepoznati, ili ih možete ručno odabrati unosom njihove IP adrese. Ako povežete uređaj putem USB-a na vaš telefon,uredjaj ce biće automatski prepoznat.
+Da biste pronašli uređaje za povezivanje putem Bluetooth-a, kliknite na "+" dugme u donjem desnom uglu. Uređaji povezani putem Wi-Fi-a koji koriste istu mrežu kao vaš telefon trebalo bi da budu automatski prepoznati, ili ih možete ručno odabrati unosom njihove IP adrese. Ako povežete uređaj putem USB-a na vaš telefon, uređaj biće automatski prepoznat.
 
 <img src="/images/android-tutorial/1.2.webp" width="300">
 
@@ -44,22 +44,23 @@ Ikona oblaka u gornjem desnom uglu pokazuje da li ste povezani sa uređajem. Tre
 
 <img src="/images/android-tutorial/1.4spojeno-bez-teksta.webp" width="300">
 
-- Oblak sa kvačicom: Uređaj je povezan sa aplikacijom.
+- Oblak sa checkmarkom: Uređaj je povezan sa aplikacijom.
 
 - Oblak sa crtom kroz njega: Nema povezanog uređaja sa aplikacijom.
 
 - Oblak sa strelicom nagore: Uređaj je povezan, ali je trenutno u režimu spavanja ili van dometa.
 
 
-## Uobicajena podesavanja
+## Uobičajena podešavanja
 
-### Promenite svoje korisnicko ime
+### Promenite svoje korisničko ime
 
 Izmenite polje "Your Name", na primer u "Mike Bird". Ovo je ime koje će drugi ljudi videti, zato ga učinite jedinstvenim. Inicijali, npr. "MB", takođe treba da budu jedinstveni i koristiće se za identifikaciju u porukama i na ekranima uređaja. Inicijali se mogu prilagoditi u podešavanjima radio uređaja, pod sekcijom korisnička podešavanja. Četiri karaktera prikazana posle vaših inicijala ne mogu se promeniti. Uređaji bez podešenog imena prikazivaće tih četiri karaktera kao inicijale uređaja.
 
 <img src="/images/android-tutorial/1.5promeni-ime.webp" width="300">
 
 ### Napravite novi kanal
+
 > [!tip]
 > Ako ste dobili QR kod ili link za Meshtastic grupu, preskočite direktno na odeljak [Pridruži se kanalu](#pridruži-se-kanalu).
 
@@ -81,7 +82,7 @@ Videćete upozorenje jer promena kanala prekida komunikaciju sa vašom grupom, t
 
 <img src="/images/android-tutorial/1.8savechannel.webp" width="300">
 
-Aplikacija će generisati novi QR kod na ekranu. On sadrži detalje o kanalu i nasumični 256-bitni ključ za deljenje sa novom grupom. QR kod možete podeliti sa drugim Meshtastic korisnicima ili koristiti dugme Share i podeliti link putem poruke, SMS-a ili email-a. Link ce izgledati ovako: `https://www.meshtastic.org/d/#CgUYAyIBAQ`
+Aplikacija će generisati novi QR kod na ekranu. On sadrži detalje o kanalu i nasumični 256-bitni ključ za deljenje sa novom grupom. QR kod možete podeliti sa drugim Meshtastic korisnicima ili koristiti dugme Share i podeliti link putem poruke, SMS-a ili email-a. Link će izgledati ovako: `https://www.meshtastic.org/d/#CgUYAyIBAQ`
 
 ### Pridruži se kanalu
 
@@ -103,9 +104,9 @@ Aplikacija će generisati novi QR kod na ekranu. On sadrži detalje o kanalu i n
 Nastavite i trebalo bi da vidite poruku kao što je "Želite li da pređete na kanal 'Owl Team'?". Prihvatite ovo, i aplikacija će preći na ovaj novi kanal. Izgubićete trenutno podešeno podešavanje kanala!
 
 > [!NOTE]
-> Podešavanje istog imena i opcija direktno na uredjaju ne funkcioniše i necete moci da mecusobno komunicirate, jer postoje druga podešavanja na urecaju (kao što je Enkripcioni Kljuc) kodirana direktno u QR kodu ili linku.
+> Podešavanje istog imena i opcija direktno na uredjaju ne funkcioniše i necete moci da mecusobno komunicirate, jer postoje druga podešavanja na uređaju (kao što je Enkripcioni Kljuc) kodirana direktno u QR kodu ili linku.
 
-### Podesavanje kanala
+### Podešavanje kanala
 
 Možete promeniti sledeća podešavanja tapkanjem na ime postojećeg kanala:
 
@@ -117,7 +118,7 @@ Možete promeniti sledeća podešavanja tapkanjem na ime postojećeg kanala:
 
 #### Preciznost pozicije
 
-Nivoi preciznosti u aplikaciji predstavljaju udaljenost unutar koje se možete nalaziti u odnosu na neku tačku (ali ne vašu trenutnu lokaciju). Možete to zamisliti kao kružnicu oko te tačke, gde što je veći krug, manje je precizno određeno vaše mesto unutar njega. Ovo je koristno ako zelite da podelite gde se nalazi vas urecaj ali ne preciznu lokaciju, (npr, samo grad ili deo grada, ali ne tacnu lokaciju)
+Nivoi preciznosti u aplikaciji predstavljaju udaljenost unutar koje se možete nalaziti u odnosu na neku tačku (ali ne vašu trenutnu lokaciju). Možete to zamisliti kao kružnicu oko te tačke, gde što je veći krug, manje je precizno određeno vaše mesto unutar njega. Ovo je koristno ako zelite da podelite gde se nalazi vas uređaj ali ne preciznu lokaciju, (npr, samo grad ili deo grada, ali ne preciznu lokaciju)
 
 ### Slanje poruka
 
@@ -136,15 +137,15 @@ Sa LoRa (ili bilo kojim radijem) postoji određena nesigurnost u vezi sa tim da 
 
 - Samo oblak: uređaj je primio poruku iz aplikacije i poslao je putem LoRa mreze.
 
-- Oblak sa znakom potvrde: Bar jedan nod je primio poruku, slicni seen statusu. Potvrda može doći sa bilo kog uređaja.
+- Oblak sa znakom potvrde: Bar jedan nod je primio poruku, slicno seen statusu. Potvrda može doći sa bilo kog uređaja.
 
 - Osoba sa znakom potvrde: ciljni nod za vašu DM (direktnu poruku) je potvrdio prijem poruke.
 
-- Precrtan oblak: Nijedan uredjaj nije poslao potvrdu da je primio vasu poruku.
+- Precrtan oblak: Nijedan uređaj nije poslao potvrdu da je primio vasu poruku.
 
 Podrazumevano ne postoji dugoročno čuvanje i prosleđivanje poruka, tako da poruke koje nisu primljene tokom prenosa – gube se.
 
-### Mreza
+### Mreža
 
 <img src="/images/android-tutorial/2.5nod-lista.webp" width="300">
 

@@ -20,7 +20,7 @@ Meshtastic je idealan za:
 - **Planinarenje i kampovanje**, gde mobilna signalna pokrivenost nije garantovana.
 - **Udaljene oblasti** sa malim pristupom internet mrežama.
 
-### Sta mi je potrebno da pocnem?
+### Šta mi je potrebno da počnem?
 
 Da biste započeli korišćenje Meshtastic mreže, prvo je potrebno da nabavite uređaj koji je kompatibilan sa Meshtastic-om. Na sledećoj stranici nalaze se naše preporuke za uređaje koje možete koristiti. Takođe, preporučujemo da pažljivo pročitate ova uputstva do kraja.
 
