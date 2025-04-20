@@ -92,8 +92,8 @@ menu:
       pageRef: "/about"
       weight: 2
     - identifier: MeshDocs
-      name: "Meshtastic dokumentacija ↗"
-      url: "https://meshtastic.org/docs/introduction/"
+      name: "Zvanični Meshtastic® site ↗"
+      url: "https://meshtastic.org/"
       weight: 3
 
 params:

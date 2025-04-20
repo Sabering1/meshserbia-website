@@ -1,18 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Meshtastic Srbija – Primeri</title>
-    <link>http://meshserbia.com/showcase/</link>
-    <description>Recent content in Primeri on Meshtastic Srbija</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>sr_Latn</language>
-    
-	  <atom:link href="http://meshserbia.com/showcase/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meshtastic Srbija – Primeri</title><link>http://meshserbia.com/showcase/</link><description>Recent content in Primeri on Meshtastic Srbija</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><atom:link href="http://meshserbia.com/showcase/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

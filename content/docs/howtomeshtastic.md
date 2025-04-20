@@ -186,9 +186,9 @@ Aplikacija je dostupna na [Apple Store](https://apps.apple.com/in/app/meshtastic
 
 Meshtastic Web je klijent koji radi direktno u vašem internet pretrazivacu. Postoje tri načina za pristupanje web aplikaciji:
 
-1. Direktno sa ESP32 nod-a putem meshtastic.local ili IP adrese uređaja. (Ovo nije preporuceno)
-2. Hostovana verzija dostupna na client.meshtastic.org. (Preporuceno)
-3. Hosting na sopstvenom serveru. (Napredni korisnici)
+1. Hostovana verzija dostupna na client.meshtastic.org. (**Preporučeno**)
+2. Direktno sa ESP32 nod-a putem meshtastic.local ili IP adrese uređaja. (**nije** preporučeno)
+3. Hosting na sopstvenom serveru. (Za napredne korisnike)
 
 <img src="/images/web-tutorial/1.0pregled.webp" width="600">
 
