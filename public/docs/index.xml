@@ -671,7 +671,7 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;a href="#pre-nego-%c5%a1to-po%c4%8dnemo-pro%c4%87i-%c4%87emo-kroz-slede%c4%87e-stavke" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group" >
 &lt;summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
 &lt;strong class="hx-text-lg">&lt;ol>
-&lt;li>Kako odabrati odgovarajuću &lt;strong>lokaciju za ruter&lt;/strong>&lt;/li>
+&lt;li>Kako odabrati odgovarajuću lokaciju za ruter&lt;/li>
 &lt;/ol>
 &lt;/strong>
 &lt;/summary>
@@ -689,18 +689,27 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group" >
 &lt;summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
 &lt;strong class="hx-text-lg">&lt;ol start="2">
-&lt;li>Koji su &lt;strong>potrebni delovi i komponente&lt;/strong>&lt;/li>
+&lt;li>Koji su potrebni delovi i komponente&lt;/li>
 &lt;/ol>
 &lt;/strong>
 &lt;/summary>
 &lt;div class="hx-p-2 hx-overflow-hidden">
-Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina), moraju se napajati solarnom energijom. Zbog toga je važno da budu energetski efikasni, pouzdani u dugotrajnom radu i otporni na vremenske uslove kao što su kiša, sneg, grad i velike temperaturne razlike.
+&lt;p>Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina), moraju se napajati solarnom energijom. Zbog toga je važno da budu energetski efikasni, pouzdani u dugotrajnom radu i otporni na vremenske uslove kao što su kiša, sneg, grad i velike temperaturne razlike.&lt;/p>
+&lt;ol>
+&lt;li>nRF52&lt;/li>
+&lt;li>Antena&lt;/li>
+&lt;li>Litihium ion&lt;/li>
+&lt;li>MPTT&lt;/li>
+&lt;li>Solar&lt;/li>
+&lt;li>Kuciste&lt;/li>
+&lt;li>Adapteri&lt;/li>
+&lt;/ol>
 &lt;/div>
 &lt;/details>
 &lt;details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group" >
 &lt;summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
 &lt;strong class="hx-text-lg">&lt;ol start="3">
-&lt;li>&lt;strong>Sastavljanje uređaja&lt;/strong> i njegovo osnovno testiranje&lt;/li>
+&lt;li>Sastavljanje uređaja i njegovo osnovno testiranje&lt;/li>
 &lt;/ol>
 &lt;/strong>
 &lt;/summary>
@@ -710,7 +719,7 @@ Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina)
 &lt;details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group" >
 &lt;summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
 &lt;strong class="hx-text-lg">&lt;ol start="4">
-&lt;li>&lt;strong>Podešavanja&lt;/strong> u softveru i konfiguracija modula&lt;/li>
+&lt;li>Podešavanja u softveru i konfiguracija modula&lt;/li>
 &lt;/ol>
 &lt;/strong>
 &lt;/summary>
@@ -720,7 +729,7 @@ Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina)
 &lt;details class="last-of-type:hx-mb-0 hx-rounded-lg hx-bg-neutral-50 dark:hx-bg-neutral-800 hx-p-2 hx-mt-4 hx-group" >
 &lt;summary class="hx-flex hx-items-center hx-cursor-pointer hx-select-none hx-list-none hx-p-1 hx-rounded hx-transition-colors hover:hx-bg-gray-100 dark:hover:hx-bg-neutral-800 before:hx-mr-1 before:hx-inline-block before:hx-transition-transform before:hx-content-[''] dark:before:hx-invert rtl:before:hx-rotate-180 group-open:before:hx-rotate-90">
 &lt;strong class="hx-text-lg">&lt;ol start="5">
-&lt;li>&lt;strong>Montaža na terenu&lt;/strong> i završna proba u realnim uslovima&lt;/li>
+&lt;li>Montaža na terenu i završna proba u realnim uslovima&lt;/li>
 &lt;/ol>
 &lt;/strong>
 &lt;/summary>
@@ -728,5 +737,5 @@ Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina)
 &lt;/div>
 &lt;/details>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
 &lt;/div></description></item></channel></rss>

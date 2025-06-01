@@ -14,7 +14,7 @@ Pošto je sam proces kompleksan, zajednica je pripremila **YouTube video** koji 
 
 ### Pre nego što počnemo, proći ćemo kroz sledeće stavke:
 
-{{% details title="1. Kako odabrati odgovarajuću **lokaciju za ruter**  " closed="true" %}}
+{{% details title="1. Kako odabrati odgovarajuću lokaciju za ruter  " closed="true" %}}
 
 Idealna lokacija za ruter je **planinski vrh ili drugo visoko mesto sa direktnom optičkom vidljivošću** prema ostalim nodovima – **radije nego visoka zgrada u gradu**.
 
@@ -29,12 +29,21 @@ Zbog toga je **strategija ključna** – koristi alatke za analizu vidljivosti p
 {{% /details %}}
 
 
-{{% details title="2. Koji su **potrebni delovi i komponente**  " closed="true" %}}
+{{% details title="2. Koji su potrebni delovi i komponente " closed="true" %}}
 
 
 
 Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina), moraju se napajati solarnom energijom. Zbog toga je važno da budu energetski efikasni, pouzdani u dugotrajnom radu i otporni na vremenske uslove kao što su kiša, sneg, grad i velike temperaturne razlike.
 
+1. nRF52
+2. Antena
+3. Litihium ion
+4. MPTT
+5. Solar
+6. Kuciste
+7. Adapteri
+
+
 
 
 
@@ -44,16 +53,16 @@ Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina)
 {{% /details %}}
 
 
-{{% details title="3. **Sastavljanje uređaja** i njegovo osnovno testiranje  " closed="true" %}}
+{{% details title="3. Sastavljanje uređaja i njegovo osnovno testiranje  " closed="true" %}}
 
 {{% /details %}}
 
 
-{{% details title="4. **Podešavanja** u softveru i konfiguracija modula    " closed="true" %}}
+{{% details title="4. Podešavanja u softveru i konfiguracija modula    " closed="true" %}}
 
 {{% /details %}}
 
-{{% details title="5. **Montaža na terenu** i završna proba u realnim uslovima  " closed="true" %}}
+{{% details title="5. Montaža na terenu i završna proba u realnim uslovima  " closed="true" %}}
 
 {{% /details %}}
 
