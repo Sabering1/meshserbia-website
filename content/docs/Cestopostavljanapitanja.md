@@ -10,7 +10,7 @@ weight: 5
 1. Koji je svrha MeshSerbia meshtastica? Da li je poenta da mogu da kontaktiram bilo koga iz Srbije pouzdano, ili je poenta da u vreme protesta imamo nezavisno sredstvo komunikacije?
 > Komunikacija u bilo kom kriznom vremenu je prioritet ali i generalna komunikacija.
 
-2. Koja je svrha rutera, ako ruter ponovi poruku, da li onda i node>ovi posle toga ponove, ili samo čuju da je router ponovio i oni ne ponavljaju?
+2. Koja je svrha rutera, ako ruter ponovi poruku, da li onda i node-ovi posle toga ponove, ili samo čuju da je router ponovio i oni ne ponavljaju?
 > Razlikuje se samo algoritam koliko brzo ponovi poruku, nakon sto je dobije i logika za retry
 
 3. Koliko poruka se čuva na uređaju? 
@@ -42,8 +42,8 @@ weight: 5
 2. Koliko košta jedan Meshtastic uređaj?
 >  Od 10 do 70 evra, zavisi od modela.
 
-3. Da li mogu da koristim Meshtastic bez baterije, preko USB>a?
->  Da, može se napajati direktno preko USB>a.
+3. Da li mogu da koristim Meshtastic bez baterije, preko USB-a?
+>  Da, može se napajati direktno preko USB-a.
 
 4. Kako da povežem više uređaja u mrežu?
 >  Automatski se povezuju kad su na istom kanalu.
@@ -57,7 +57,7 @@ weight: 5
 > Preko USB kabla i Web client>a
 
 2. Šta je firmware i kako se flešuje?
-> Softver koji uređaj pokreće. Flešuje se preko Meshtastic Flasher>a.
+> Softver koji uređaj pokreće. Flešuje se preko Meshtastic Flasher-a.
 
 3. Da li treba da znam programiranje da bih koristio Meshtastic?
 > Ne, sve se podešava kroz aplikaciju.
@@ -112,8 +112,8 @@ weight: 5
 
 ### 🌐 Naprednija pitanja
 
-1. Mogu li da ga integrišem sa Home Assistant, MQTT ili Node>RED?
+1. Mogu li da ga integrišem sa Home Assistant, MQTT ili NodeRED?
 > Da, ima podršku za sve to.
 
 2. Da li mogu da napravim sopstveni server za Meshtastic poruke?
-> Možeš preko MQTT brokera i sopstvenog backend>a.
+> Možeš preko MQTT brokera i sopstvenog backend-a.

@@ -1,6 +1,6 @@
 ---
 date: '2025-04-13T20:10:06+02:00'
-draft: true
+draft: false
 title: 'Preporučeni uređaji za kupovinu'
 weight: 2
 ---

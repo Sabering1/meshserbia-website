@@ -103,7 +103,8 @@ Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite 
 
 #### 🤖 Bot komande
 
-- `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja.
+- `ping` – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.
+- `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja posle ping komanda. Ova komada se moze upotrebiti samo jednom na deset minuta
 - `weather` – Komanda za vremensku prognozu, npr: `weather novi sad`
 
 #### 📊 Grafana

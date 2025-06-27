@@ -20,7 +20,121 @@
 &lt;li>&lt;strong>Solarni repetitor&lt;/strong>: Za ovu svrhu je ključna niska potrošnja energije i jaka antena. Preporučuje se korišćenje nRF52 čipa sa velikom antenom.&lt;/li>
 &lt;li>&lt;strong>Mobilni nodovi&lt;/strong>: Ako pravite prenosive uređaje koje ćete nositi sa sobom ili davati prijateljima koji nisu tehnički potkovani, birajte diskretne, elegantne i jednostavne za korišćenje nodove.&lt;/li>
 &lt;/ul>
-&lt;p>Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p></description></item><item><title>Kako se povezati na Srpsku meshtastic mrežu</title><link>http://meshserbia.com/docs/howtousemeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate><guid>http://meshserbia.com/docs/howtousemeshtastic/</guid><description>
+&lt;p>Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p></description></item><item><title>Preporučeni uređaji za kupovinu</title><link>http://meshserbia.com/docs/howtomakeanode/</link><pubDate>Sun, 13 Apr 2025 20:10:06 +0200</pubDate><guid>http://meshserbia.com/docs/howtomakeanode/</guid><description>
+&lt;h3>Šta treba znati pre kupovine.&lt;span class="hx-absolute -hx-mt-20" id="šta-treba-znati-pre-kupovine">&lt;/span>
+&lt;a href="#%c5%a1ta-treba-znati-pre-kupovine" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Uređaji sa novijim Semtech SX126x ili LR11xx serijama&lt;/strong>&lt;br>
+Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/li>
+&lt;/ol>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-amber-200 hx-bg-amber-100 hx-text-amber-900 dark:hx-border-amber-200/30 dark:hx-bg-amber-900/30 dark:hx-text-amber-200">
+&lt;p class="hx-flex hx-items-center hx-font-medium">&lt;svg height=16px class="hx-inline-block hx-align-middle hx-mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>Warning&lt;/p>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">&lt;p>Uređaji sa &lt;strong>SX127x&lt;/strong> čipom treba izbegavati.&lt;/p>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>&lt;strong>Uređaji bazirani na nRF52 čipovima&lt;/strong>&lt;br>
+Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom.&lt;/li>
+&lt;/ol>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-blue-200 hx-bg-blue-100 hx-text-blue-900 dark:hx-border-blue-200/30 dark:hx-bg-blue-900/30 dark:hx-text-blue-200">
+&lt;p class="hx-flex hx-items-center hx-font-medium">&lt;svg height=16px class="hx-inline-block hx-align-middle hx-mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>Note&lt;/p>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">&lt;p>&lt;strong>nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth-a ili preko USB-a.&lt;/strong>&lt;/p>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>&lt;strong>Uređaji bazirani na ESP32 čipovima&lt;/strong>&lt;br>
+Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Takođe su pogodniji za uređaje koji ne zahtevaju dugo trajanje baterije (jedan ili dva dana). Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.&lt;/li>
+&lt;/ol>
+&lt;h2>Preporučeni uređaji&lt;span class="hx-absolute -hx-mt-20" id="preporučeni-uređaji">&lt;/span>
+&lt;a href="#preporu%c4%8deni-ure%c4%91aji" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Meshtastic može biti instaliran na širok broj uređaja. Iako mnogo više uređaja nego sa ove liste mogu pokretati Meshtastic i međusobno komunicirati, neki uređaji su posebno popularni u Srpskoj zajednici. Evo uređaja koje Srpska zajednica preporučuje:&lt;/p>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200">
+&lt;p class="hx-flex hx-items-center hx-font-medium">&lt;svg height=16px class="hx-inline-block hx-align-middle hx-mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>Tip&lt;/p>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">&lt;p>Meshtastic mreža u Srbiji koristi 868 MHz. Obratite pažnju kad kupujete.&lt;/p>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Uređaj&lt;/th>
+&lt;th>Čipset&lt;/th>
+&lt;th>Potrošnja energije&lt;/th>
+&lt;th>Cena&lt;/th>
+&lt;th>Prednosti&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit" target="_blank" rel="noopener">&lt;strong>RAK Meshtastic Start Kit: RAK19007+RAK4631&lt;/strong>&lt;/a>&lt;/td>
+&lt;td>nRF52 + SX1262&lt;/td>
+&lt;td>🔋 Niska&lt;/td>
+&lt;td>30$&lt;/td>
+&lt;td>Pouzdan, odličan za solar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html" target="_blank" rel="noopener">&lt;strong>Seeed Card Tracker T1000-E&lt;/strong>&lt;/a>&lt;/td>
+&lt;td>nRF52 + LR1120&lt;/td>
+&lt;td>🔋 Veoma niska&lt;/td>
+&lt;td>40$&lt;/td>
+&lt;td>Ultra-niska potrošnja, malen tracker format, staje u novcanik&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>T-Echo T114 V2&lt;/strong>&lt;/td>
+&lt;td>nRF52 + SX1262&lt;/td>
+&lt;td>🔋 Veoma niska&lt;/td>
+&lt;td>30-50$&lt;/td>
+&lt;td>Vibracija, ekran, baterija, GPS, direktno za teren&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html" target="_blank" rel="noopener">&lt;strong>XIAO ESP32S3 &amp;amp; Wio-SX1262 Kit&lt;/strong>&lt;/a>&lt;/td>
+&lt;td>ESP32-S3 + SX1262&lt;/td>
+&lt;td>🔌 Viša&lt;/td>
+&lt;td>10$&lt;/td>
+&lt;td>Veoma jeftin, Wi-Fi, pogodno za razvoj&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html" target="_blank" rel="noopener">&lt;strong>XIAO nRF52840 + Wio SX1262 Kit&lt;/strong>&lt;/a>&lt;/td>
+&lt;td>nRF52 + SX1262&lt;/td>
+&lt;td>🔋 Veoma niska&lt;/td>
+&lt;td>14$&lt;/td>
+&lt;td>Ultra-mali, Najjeftiniji nRF52 chip&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>Preporučene antene&lt;span class="hx-absolute -hx-mt-20" id="preporučene-antene">&lt;/span>
+&lt;a href="#preporu%c4%8dene-antene" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Većina antena koje dolaze uz uređaje nisu dovoljno snažne za komunikaciju na većim razdaljinama, pa je za značajno poboljšanje dometa često potrebno nabaviti posebnu, jaču antenu. Mnogi uređaji koriste različite vrste konektora, najčešće SMA ili njegove varijante, pa je u tim slučajevima potreban odgovarajući adapter kako bi se antena mogla povezati. U većini situacija dovoljna je kvalitetna mobilna antena, ali ako pravite repetitor ili planirate pokrivanje većeg područja, preporučuje se upotreba većih, namenski pravljenih antena koje su optimizovane za takvu vrstu rada.
+Tabela ispod sadrži antene koje preporučuje naša zajednica.&lt;/p>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200">
+&lt;p class="hx-flex hx-items-center hx-font-medium">&lt;svg height=16px class="hx-inline-block hx-align-middle hx-mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>&lt;/svg>Tip&lt;/p>
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7">
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0">&lt;p>Meshtastic mreža u Srbiji koristi 868 MHz. Obratite pažnju kad kupujete.&lt;/p>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Model&lt;/th>
+&lt;th>Cena&lt;/th>
+&lt;th>Vrsta konektora – potreban adapter&lt;/th>
+&lt;th>Mobilni ili Fiksni&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a href="https://a.aliexpress.com/_EvpEZC4" target="_blank" rel="noopener">NB-IoT/LoRa Soft Antenna&lt;/a>&lt;/td>
+&lt;td>5$&lt;/td>
+&lt;td>SMA male – potreban adapter&lt;/td>
+&lt;td>Mobilni&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a href="https://www.aliexpress.com/item/1005007301116616.html" target="_blank" rel="noopener">TX868-BLG-40 868MHz&lt;/a>&lt;/td>
+&lt;td>20$&lt;/td>
+&lt;td>N male – potreban &lt;a href="https://www.aliexpress.com/item/4001038164458.html" target="_blank" rel="noopener">adapter&lt;/a>&lt;/td>
+&lt;td>Fiksni&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Kako se povezati na Srpsku meshtastic mrežu</title><link>http://meshserbia.com/docs/howtousemeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate><guid>http://meshserbia.com/docs/howtousemeshtastic/</guid><description>
 &lt;h3>Ažuriranje uređaja&lt;span class="hx-absolute -hx-mt-20" id="ažuriranje-uređaja">&lt;/span>
 &lt;a href="#a%c5%beuriranje-ure%c4%91aja" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Pratite instrukcije na ekranu.&lt;/p>
 &lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-flex-col hx-rounded-lg hx-border hx-py-4 hx-px-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-green-200 hx-bg-green-100 hx-text-green-900 dark:hx-border-green-200/30 dark:hx-bg-green-900/30 dark:hx-text-green-200">
@@ -255,7 +369,8 @@ role="tabpanel">&lt;ul>
 &lt;a href="#prvo-kori%c5%a1%c4%87enje" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.&lt;/p>
 &lt;h4>🤖 Bot komande&lt;span class="hx-absolute -hx-mt-20" id="-bot-komande">&lt;/span>
 &lt;a href="#-bot-komande" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>&lt;code>nodeinfo&lt;/code> – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja.&lt;/li>
+&lt;li>&lt;code>ping&lt;/code> – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.&lt;/li>
+&lt;li>&lt;code>nodeinfo&lt;/code> – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja posle ping komanda. Ova komada se moze upotrebiti samo jednom na deset minuta&lt;/li>
 &lt;li>&lt;code>weather&lt;/code> – Komanda za vremensku prognozu, npr: &lt;code>weather novi sad&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4>📊 Grafana&lt;span class="hx-absolute -hx-mt-20" id="-grafana">&lt;/span>
@@ -468,7 +583,7 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;p>Komunikacija u bilo kom kriznom vremenu je prioritet ali i generalna komunikacija.&lt;/p>
 &lt;/blockquote>
 &lt;ol start="2">
-&lt;li>Koja je svrha rutera, ako ruter ponovi poruku, da li onda i node&amp;gt;ovi posle toga ponove, ili samo čuju da je router ponovio i oni ne ponavljaju?&lt;/li>
+&lt;li>Koja je svrha rutera, ako ruter ponovi poruku, da li onda i node-ovi posle toga ponove, ili samo čuju da je router ponovio i oni ne ponavljaju?&lt;/li>
 &lt;/ol>
 &lt;blockquote>
 &lt;p>Razlikuje se samo algoritam koliko brzo ponovi poruku, nakon sto je dobije i logika za retry&lt;/p>
@@ -529,10 +644,10 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;p>Od 10 do 70 evra, zavisi od modela.&lt;/p>
 &lt;/blockquote>
 &lt;ol start="3">
-&lt;li>Da li mogu da koristim Meshtastic bez baterije, preko USB&amp;gt;a?&lt;/li>
+&lt;li>Da li mogu da koristim Meshtastic bez baterije, preko USB-a?&lt;/li>
 &lt;/ol>
 &lt;blockquote>
-&lt;p>Da, može se napajati direktno preko USB&amp;gt;a.&lt;/p>
+&lt;p>Da, može se napajati direktno preko USB-a.&lt;/p>
 &lt;/blockquote>
 &lt;ol start="4">
 &lt;li>Kako da povežem više uređaja u mrežu?&lt;/li>
@@ -557,7 +672,7 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;li>Šta je firmware i kako se flešuje?&lt;/li>
 &lt;/ol>
 &lt;blockquote>
-&lt;p>Softver koji uređaj pokreće. Flešuje se preko Meshtastic Flasher&amp;gt;a.&lt;/p>
+&lt;p>Softver koji uređaj pokreće. Flešuje se preko Meshtastic Flasher-a.&lt;/p>
 &lt;/blockquote>
 &lt;ol start="3">
 &lt;li>Da li treba da znam programiranje da bih koristio Meshtastic?&lt;/li>
@@ -654,7 +769,7 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;/blockquote>
 &lt;h3>🌐 Naprednija pitanja&lt;span class="hx-absolute -hx-mt-20" id="-naprednija-pitanja">&lt;/span>
 &lt;a href="#-naprednija-pitanja" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>Mogu li da ga integrišem sa Home Assistant, MQTT ili Node&amp;gt;RED?&lt;/li>
+&lt;li>Mogu li da ga integrišem sa Home Assistant, MQTT ili NodeRED?&lt;/li>
 &lt;/ol>
 &lt;blockquote>
 &lt;p>Da, ima podršku za sve to.&lt;/p>
@@ -663,7 +778,7 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;li>Da li mogu da napravim sopstveni server za Meshtastic poruke?&lt;/li>
 &lt;/ol>
 &lt;blockquote>
-&lt;p>Možeš preko MQTT brokera i sopstvenog backend&amp;gt;a.&lt;/p>
+&lt;p>Možeš preko MQTT brokera i sopstvenog backend-a.&lt;/p>
 &lt;/blockquote></description></item><item><title>Napredna podešavanja</title><link>http://meshserbia.com/docs/naprednapodesavanja/</link><pubDate>Sun, 13 Apr 2025 17:18:27 +0200</pubDate><guid>http://meshserbia.com/docs/naprednapodesavanja/</guid><description/></item><item><title>Solarni Ruter</title><link>http://meshserbia.com/docs/solarnode/</link><pubDate>Sun, 13 Apr 2025 20:10:51 +0200</pubDate><guid>http://meshserbia.com/docs/solarnode/</guid><description>
 &lt;p>Ovaj vodič će vas sprovesti kroz korake za pravljenje &lt;strong>solarnog rutera&lt;/strong> – jednog od najvažnijih uređaja za mesh infrastrukturu u Srbiji.&lt;/p>
 &lt;p>Pošto je sam proces kompleksan, zajednica je pripremila &lt;strong>YouTube video&lt;/strong> koji detaljno prikazuje sve korake za konstruisanje jednog funkcionalnog repetitora.&lt;/p>
@@ -737,5 +852,5 @@ role="tabpanel">&lt;p>Meshtastic Web je klijent koji radi direktno u vašem inte
 &lt;/div>
 &lt;/details>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ROzkbjWR8lw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
 &lt;/div></description></item></channel></rss>
