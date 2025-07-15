@@ -1,6 +1,6 @@
 baseURL: http://meshserbia.com
 languageCode: en-us
-title: Meshtastic Serbia
+title: Meshtastic Serbia - Zajednica
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -20,17 +20,17 @@ languages:
     languageName: English
     languageCode: en
     weight: 1
-    title: Meshtastic Serbia
+    title: Meshtastic Serbia - Community
   sr_Latn:
     languageName: Srpski - Latinica
     languageCode: sr_Latn
     weight: 2
-    title: Meshtastic Srbija
+    title: Meshtastic Srbija - Zajednica
   sr_Cyrl:
     languageName: Српски - Ћирилица
     languageCode: sr_Cyrl
     weight: 3
-    title: Мештастик Србија
+    title: Мештастик Србија - Заједница
 
 #Bog zna sta ovo radi
 
@@ -105,8 +105,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo1.webp
-      dark: images/logo1.webp
+      path: favicon.svg
+      dark: favicon.svg
       width: 60
       height: 40
       link: /

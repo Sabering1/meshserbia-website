@@ -1,5 +1,5 @@
 ---
-title: Meshtastic Serbia
+title: Meshtastic zajednica Srbije
 layout: hextra-home
 ---
 <meta charset="UTF-8">
@@ -73,4 +73,3 @@ layout: hextra-home
   >}}
 
 {{< /hextra/feature-grid >}}
-

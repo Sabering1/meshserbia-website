@@ -1,5 +1,5 @@
 ---
-title: Meshtastic Serbia
+title: Meshtastic Community of Serbia
 layout: hextra-home
 ---
 <meta charset="UTF-8">
