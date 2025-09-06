@@ -15,7 +15,7 @@ Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabiln
 
 
 > [!TIP]
-> Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**. Opcija **"Bundle WebUI"** treba da bude isključena.
+> Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**.
 
 {{< callout emoji="🌐" >}}
 Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.
@@ -101,10 +101,14 @@ Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje 
 
 Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.
 
+{{< callout emoji="🌐" >}}
+MQTT može biti nedostupan ako je trenutno deaktiviran radi testiranja; u tom slučaju najbolje je raspitati se u Telegram grupi.
+{{< /callout >}}
+
 #### 🤖 Bot komande
 
 - `ping` – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.
-- `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, preporučeno koristiti prilikom prvog povezivanja posle ping komanda. Ova komada se moze upotrebiti samo jednom na deset minuta
+- `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, komada se moze upotrebiti samo jednom na deset minuta
 - `weather` – Komanda za vremensku prognozu, npr: `weather novi sad`
 
 #### 📊 Grafana

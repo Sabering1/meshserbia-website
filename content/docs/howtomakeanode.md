@@ -15,10 +15,10 @@ Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.
 2. **Uređaji bazirani na nRF52 čipovima**  
 Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom. 
 > [!NOTE]
-> **nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth-a ili preko USB-a.**
+> **nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth-a ili USB-a.**
 
 3. **Uređaji bazirani na ESP32 čipovima**  
-Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Takođe su pogodniji za uređaje koji ne zahtevaju dugo trajanje baterije (jedan ili dva dana). Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.
+Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.
 
 
 ## Preporučeni uređaji
