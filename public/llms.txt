@@ -1,4 +1,4 @@
-# Meshtastic Srbija - Zajednica
+# MeshSerbia
 
 > Pridruži se najvećoj Srpskoj Meshtastic zajednici na medium_fast kanalu!
 
@@ -8,7 +8,7 @@
 - [Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu](http://meshserbia.com/blog/1.0-kokanovic/): Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na … - Published 2025-07-14
 
 ## Početak
-- [Introdukcija](http://meshserbia.com/docs/introdukcija/): 1. Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
+- [Uvod](http://meshserbia.com/docs/introdukcija/): 1. Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
 - [Preporučeni uređaji za kupovinu](http://meshserbia.com/docs/howtomakeanode/): Šta treba znati pre kupovine. Uređaji sa novijim Semtech SX126x ili LR11xx serijama
 Preporučujemo … - Published 2025-04-13
 - [Kako se povezati na Srpsku meshtastic mrežu](http://meshserbia.com/docs/howtousemeshtastic/): Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabilnu verziju firmware-a. … - Published 2025-04-13
@@ -23,5 +23,5 @@ Preporučujemo … - Published 2025-04-13
 
 
 ---
-Generated on 2025-09-15 20:34:33 UTC
+Generated on 2025-09-16 00:38:04 UTC
 Site: http://meshserbia.com/

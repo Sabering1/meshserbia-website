@@ -67,4 +67,4 @@ Pošto se većina rutera postavlja na nepristupačnim lokacijama (poput planina)
 
 {{% /details %}}
 
-{{< youtube ROzkbjWR8lw >}}
+

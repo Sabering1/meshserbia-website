@@ -1,5 +1,5 @@
 ---
-title: Meshtastic zajednica Srbije
+title: MeshSerbia
 layout: hextra-home
 ---
 <meta charset="UTF-8">

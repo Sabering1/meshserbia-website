@@ -1,6 +1,6 @@
 baseURL: http://meshserbia.com
 languageCode: en-us
-title: Meshtastic Serbia - Zajednica
+title: MeshSerbia
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -20,17 +20,17 @@ languages:
     languageName: English
     languageCode: en
     weight: 1
-    title: Meshtastic Serbia - Community
+    title: MeshSerbia
   sr_Latn:
     languageName: Srpski - Latinica
     languageCode: sr_Latn
     weight: 2
-    title: Meshtastic Srbija - Zajednica
+    title: MeshSerbia
   sr_Cyrl:
     languageName: Српски - Ћирилица
     languageCode: sr_Cyrl
     weight: 3
-    title: Мештастик Србија - Заједница
+    title: MeshSerbia
 
 #Bog zna sta ovo radi
 
@@ -74,14 +74,15 @@ menu:
       params:
         type: search
     - name: Telegram
-      weight: 6
-      url: "https://t.me/meshtasticsrb"
-      params:
-        icon: telegram
-    - name: Vesti
       weight: 7
       url: "https://t.me/meshtasticsrb"
       params:
+        icon: telegram
+    - name: Forum
+      weight: 6
+      url: "https://github.com/Sabering1/meshserbia-website/discussions"
+      params:
+        type: link
         icon: github
         
 
@@ -108,7 +109,7 @@ params:
   externalLinkDecoration: true
   banner:
     key: "announcement"
-    message: Pogledajte sekciju **Vesti uživo** i pratite najnovija ažuriranja sa MeshSerbia mrežom
+    message: Pogledajte forum i pratite najnovija ažuriranja sa MeshSerbia mrežom!
   analytics:
     umami:
       serverURL: "https://telemetrija.sabering.xyz"

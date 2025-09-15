@@ -1,7 +1,7 @@
 ---
 date: '2025-04-13T20:06:28+02:00'
 draft: false
-title: 'Introdukcija'
+title: 'Uvod'
 cascade:
   type: docs
 weight: 1

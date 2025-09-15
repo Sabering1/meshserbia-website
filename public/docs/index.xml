@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meshtastic Srbija - Zajednica – Početak</title><link>http://meshserbia.com/docs/</link><description>Recent content in Početak on Meshtastic Srbija - Zajednica</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate><atom:link href="http://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Introdukcija</title><link>http://meshserbia.com/docs/introdukcija/</link><pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate><guid>http://meshserbia.com/docs/introdukcija/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Početak</title><link>http://meshserbia.com/docs/</link><description>Recent content in Početak on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate><atom:link href="http://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Uvod</title><link>http://meshserbia.com/docs/introdukcija/</link><pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate><guid>http://meshserbia.com/docs/introdukcija/</guid><description>
 &lt;h2&gt;1. Šta je Meshtastic?&lt;span class="hx:absolute hx:-mt-20" id="1-šta-je-meshtastic"&gt;&lt;/span&gt;
 &lt;a href="#1-%c5%a1ta-je-meshtastic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
 &lt;h3&gt;Tehnologija&lt;span class="hx:absolute hx:-mt-20" id="tehnologija"&gt;&lt;/span&gt;
@@ -867,7 +867,4 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;/summary&gt;
 &lt;div class="hx:p-2 hx:overflow-hidden"&gt;
 &lt;/div&gt;
-&lt;/details&gt;
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ROzkbjWR8lw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/details&gt;</description></item></channel></rss>
