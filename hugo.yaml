@@ -113,7 +113,7 @@ params:
     umami:
       serverURL: "https://telemetrija.sabering.xyz"
       websiteID: "e207074d-b695-4f3a-a9e7-10323e14425d"
-      # scriptName: "umami.js" # optional (default: umami.js)
+      scriptName: "script.js" # optional (default: umami.js)
       # https://umami.is/docs/tracker-configuration#data-host-url
       # hostURL: "http://stats.example.org" # optional
       # https://umami.is/docs/tracker-configuration#data-auto-track
