@@ -8,7 +8,7 @@ module:
 enableEmoji: true
 
 outputs:
-  home: [HTML]
+  home: [HTML, llms]
   page: [HTML]
   section: [HTML, RSS]
 
@@ -78,6 +78,12 @@ menu:
       url: "https://t.me/meshtasticsrb"
       params:
         icon: telegram
+    - name: Vesti
+      weight: 7
+      url: "https://t.me/meshtasticsrb"
+      params:
+        icon: github
+        
 
 #Sidebar koji se nalazi sa leve strane, uvek aktivan statican
 
@@ -97,7 +103,34 @@ menu:
       weight: 3
 
 params:
-  description: "Pridruži se najvećoj srpskoj Meshtastic zajednici na medium_fast kanalu!."
+  description: "Pridruži se najvećoj Srpskoj Meshtastic zajednici na medium_fast kanalu!"
+  keywords: ["mesh", "serbia", "meshtastic"]
+  externalLinkDecoration: true
+  banner:
+    key: "announcement"
+    message: Pogledajte sekciju **Vesti uživo** i pratite najnovija ažuriranja sa MeshSerbia mrežom
+  analytics:
+    umami:
+      serverURL: "https://telemetrija.sabering.xyz"
+      websiteID: "e207074d-b695-4f3a-a9e7-10323e14425d"
+      # scriptName: "umami.js" # optional (default: umami.js)
+      # https://umami.is/docs/tracker-configuration#data-host-url
+      # hostURL: "http://stats.example.org" # optional
+      # https://umami.is/docs/tracker-configuration#data-auto-track
+      # autoTrack: "false" # optional
+      # https://umami.is/docs/tracker-configuration#data-tag
+      # domains: "example.net,example.org" # optional
+      # https://umami.is/docs/tracker-configuration#data-exclude-search
+      # tag: "umami-eu" # optional
+      # https://umami.is/docs/tracker-configuration#data-exclude-hash
+      # excludeSearch: "true" # optional
+      # https://umami.is/docs/tracker-configuration#data-do-not-track
+      # excludeHash: "true" # optional
+      # https://umami.is/docs/tracker-configuration#data-domains
+      # doNotTrack: "true" # optional
+
+
+
 
 # Slika za logo
 

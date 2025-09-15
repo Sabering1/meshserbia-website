@@ -1,0 +1,27 @@
+# Meshtastic Srbija - Zajednica
+
+> Pridruži se najvećoj Srpskoj Meshtastic zajednici na medium_fast kanalu!
+
+
+## Vesti
+- [Seeed Studio: Solarni Meshtastic nod za zajednicu](http://meshserbia.com/blog/1.1-seeed/): U prethodnih par nedelja imao sam priliku da sarađujem sa jednim od hardver dizajnera Meshtastic … - Published 2025-07-30
+- [Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu](http://meshserbia.com/blog/1.0-kokanovic/): Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na … - Published 2025-07-14
+
+## Početak
+- [Introdukcija](http://meshserbia.com/docs/introdukcija/): 1. Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
+- [Preporučeni uređaji za kupovinu](http://meshserbia.com/docs/howtomakeanode/): Šta treba znati pre kupovine. Uređaji sa novijim Semtech SX126x ili LR11xx serijama
+Preporučujemo … - Published 2025-04-13
+- [Kako se povezati na Srpsku meshtastic mrežu](http://meshserbia.com/docs/howtousemeshtastic/): Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabilnu verziju firmware-a. … - Published 2025-04-13
+- [Kako Koristiti Meshtastic Aplikaciju](http://meshserbia.com/docs/howtomeshtastic/): Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne … - Published 2025-04-13
+- [Često postavljanja pitanja](http://meshserbia.com/docs/cestopostavljanapitanja/): 🔰 Osnovna pitanja Koji je svrha MeshSerbia meshtastica? Da li je poenta da mogu da kontaktiram bilo … - Published 2025-04-13
+- [Napredna podešavanja](http://meshserbia.com/docs/naprednapodesavanja/): Uskoro - Published 2025-04-13
+- [Solarni Ruter](http://meshserbia.com/docs/solarnode/): Ovaj vodič vas vodi kroz postupak izrade solarnog rutera – ključnog uređaja za mesh infrastrukturu u … - Published 2025-04-13
+
+## Meshtastic Srbija i o nama
+
+## Primeri
+
+
+---
+Generated on 2025-09-15 19:36:31 UTC
+Site: http://meshserbia.com/

@@ -5,25 +5,12 @@ title: 'Kako se povezati na Srpsku meshtastic mrežu'
 weight: 3
 ---
 
+Nakon što ste nabavili uređaj, važno je da ga **ažurirate** na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Kliknite na [link za ažuiranje](https://flasher.meshtastic.org/) i pratite instrukcije na ekranu.
 
-
-### Ažuriranje uređaja
-
-Nakon što ste nabavili uređaj, važno je da ga ažurirate na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Pratite instrukcije na ekranu.
-
-
-
-
-> [!TIP]
-> Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**.
 
 {{< callout emoji="🌐" >}}
-Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.
+Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**. Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.
 {{< /callout >}}
-
-{{< cards cols="1" >}}
-{{< card link="https://flasher.meshtastic.org/" title="Ažuriraj Meshtastic" icon="arrow-circle-up" tag="Flasher" tagType="info" >}}
-{{< /cards >}}
 
 ---
 
@@ -116,6 +103,6 @@ MQTT može biti nedostupan ako je trenutno deaktiviran radi testiranja; u tom sl
 Za pristup koristite korisničko ime `meshserbia` i lozinku `meshserbia`.
 
 {{< cards cols="1" >}}
-{{< card link="https://stats.nemanja.top/d/advjb2pz7wn40f/meshtastic?orgId=1" title="Otvori dashboard 📈" icon="arrow-circle-up" tag="Grafana" tagType="info" >}}
+{{< card link="https://stats.meshserbia.com/d/advjb2pz7wn40f/meshtastic?orgId=1" title="Otvori dashboard 📈" icon="arrow-circle-up" tag="Grafana" tagType="info" >}}
 {{< /cards >}}
 

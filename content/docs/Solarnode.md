@@ -8,7 +8,8 @@ toc: false
 
 ---
 
-Ovaj vodič će vas sprovesti kroz korake za pravljenje **solarnog rutera** – jednog od najvažnijih uređaja za mesh infrastrukturu u Srbiji.  
+Ovaj vodič vas vodi kroz postupak izrade **solarnog rutera** – ključnog uređaja za mesh infrastrukturu u Srbiji. Ako nemate tehničko znanje ili ne želite sami da pravite uređaj, uvek možete kupiti gotov solarni ruter od proizvođača poput RAK ili SEEED P1 Pro solar ruter, čiju recenziju možete pronaći u sekciji vesti. Prednost izrade sopstvenog rutera je u tome što kroz proces učite elektroniku, sastavljate uređaj koji je idealno prilagođen vašim potrebama i imate gotovo neograničene mogućnosti prilagođavanja, poput dodavanja filtera za signal i drugih modifikacija. Ako ipak ne želite da prolazite kroz taj proces, preporuka je da nabavite već gotov uređaj.
+
 
 Pošto je sam proces kompleksan, zajednica je pripremila **YouTube video** koji detaljno prikazuje sve korake za konstruisanje jednog funkcionalnog repetitora.
 
