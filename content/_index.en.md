@@ -38,7 +38,7 @@ layout: hextra-home
 }
 </style>
 
-{{< hextra/hero-badge link="https://meshtastic.org" >}}
+{{< hextra/hero-badge link="https://meshtastic.org/e/" >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400 dot"></div>
   <span>Join the Medium_Fast channel</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -65,14 +65,14 @@ layout: hextra-home
 {{< hextra/feature-card
     link="https://meshtastic.org"
     title="What is Meshtastic?"
-    subtitle="An open-source LoRa network enabling messaging without the internet. Perfect for hiking, emergencies, DIY projects, and more."
+    subtitle="Open-source LoRa network for sending messages without the internet, ideal for hiking, emergencies, and DIY projects."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
     imageClass="hx:top-[40%] hx:left-[20px] hx:w-[110%] hx:dark:opacity-80 card-icon"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(57, 255, 20, 0.18), hsla(0, 0%, 100%, 0));"
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://meshserbia.com/docs"
     title="Guides & Tutorials"
     subtitle="From initial setup to advanced features like solar nodes, MQTT integration, and sensors."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
@@ -81,7 +81,7 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://meshserbia.com/docs/solarnode"
     title="Solar Nodes & Coverage"
     subtitle="Build your own autonomous Meshtastic node with solar power for the mountains, countryside, or your cabin."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
@@ -90,7 +90,7 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Serbian Community"
     subtitle="Connect with local users, share experiences, and join our Telegram chat or GitHub projects."
     class="feature-card"
@@ -98,14 +98,14 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Works Anywhere, Offline"
     subtitle="Send messages even without internet or signal, no SIM cards, no payments, just devices."
     class="feature-card"
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Easy Integration"
     subtitle="Connect Meshtastic with your phone using the app; with internet you can message even far from nodes."
     class="feature-card"

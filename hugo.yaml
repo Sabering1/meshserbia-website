@@ -135,10 +135,13 @@ params:
     giscus:
       repo: "Sabering1/meshserbia-website"
       repoId: "R_kgDOOZY74Q"
-      category: "General"
-      categoryId: "DIC_kwDOOZY74c4CvfEh"
-      lang: "sr"
-      inputposition: "top"
+      category: "Pitanja i odgovori"
+      categoryId: "DIC_kwDOOZY74c4CvfEi"
+      lang: "hbs"
+      inputPosition: "top"
+      reactionsEnabled: "0"
+      strict: "1"
+      mapping: "pathname"
 
 # Slika za logo
 

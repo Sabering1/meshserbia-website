@@ -38,7 +38,7 @@ layout: hextra-home
 }
 </style>
 
-{{< hextra/hero-badge link="https://meshtastic.org" >}}
+{{< hextra/hero-badge link="https://meshtastic.org/e/" >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400 dot"></div>
   <span>Придружи се на Medium_Fast каналу</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -65,14 +65,14 @@ layout: hextra-home
 {{< hextra/feature-card
     link="https://meshtastic.org"
     title="Шта је Meshtastic?"
-    subtitle="Open-Source LoRa мрежа која омогућава слање порука без интернета. Идеално за планинарење, ванредне ситуације, DIY пројекте и још много тога."
+    subtitle="LoRa мрежа за слање порука без интернета, идеална за планинарење, ванредне ситуације и DIY пројекте."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
     imageClass="hx:top-[40%] hx:left-[20px] hx:w-[110%] hx:dark:opacity-80 card-icon"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(57, 255, 20, 0.18), hsla(0, 0%, 100%, 0));"
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://meshserbia.com/docs"
     title="Водичи и туторијали"
     subtitle="Од првог подешавања до напредних опција као што су соларни нодови, MQTT интеграција и сензори."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
@@ -81,7 +81,7 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://meshserbia.com/docs/solarnode"
     title="Соларни нодови и покривеност"
     subtitle="Направи сопствени аутономни Meshtastic нод са соларним напајањем за планину, село или викендицу."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
@@ -90,7 +90,7 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Заједница из Србије"
     subtitle="Повежи се са домаћим корисницима, подели искуство и придружи се нашем Telegram чету или GitHub пројектима."
     class="feature-card"
@@ -98,14 +98,14 @@ layout: hextra-home
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Ради свуда, без мреже"
     subtitle="Шаљи поруке и кад нема интернета или сигнала, без SIM картица, без плаћања, само уз уређаје."
     class="feature-card"
   >}}
 
 {{< hextra/feature-card
-    link="https://meshtastic.org"
+    link="https://t.me/meshtasticsrb"
     title="Лака интеграција"
     subtitle="Повежи Meshtastic са телефоном помоћу апликације; уз интернет везу можеш слати поруке и кад си далеко од нодова."
     class="feature-card"

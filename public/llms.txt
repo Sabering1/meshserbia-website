@@ -9,7 +9,7 @@
 
 ## Početak
 - [Uvod](http://meshserbia.com/docs/introdukcija/): Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
-- [Šta treba znati pre kupovine.](http://meshserbia.com/docs/howtomakeanode/): 1. Tip uređaja Uređaji bazirani na nRF52 čipovima
+- [Šta treba znati pre kupovine](http://meshserbia.com/docs/howtomakeanode/): 1. Tip uređaja Uređaji bazirani na nRF52 čipovima
 Uređaji koji koriste nRF52 čipove koriste manje … - Published 2025-04-13
 - [Povezivanje na mrežu](http://meshserbia.com/docs/howtousemeshtastic/): Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i … - Published 2025-04-13
 - [Korišćenje aplikacije](http://meshserbia.com/docs/howtomeshtastic/): Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne … - Published 2025-04-13
@@ -23,5 +23,5 @@ Uređaji koji koriste nRF52 čipove koriste manje … - Published 2025-04-13
 
 
 ---
-Generated on 2025-09-19 20:14:57 UTC
+Generated on 2025-09-19 21:20:37 UTC
 Site: http://meshserbia.com/

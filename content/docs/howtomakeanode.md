@@ -1,7 +1,7 @@
 ---
 date: '2025-04-13T20:10:06+02:00'
 draft: false
-title: 'Šta treba znati pre kupovine.'
+title: 'Šta treba znati pre kupovine'
 weight: 2
 toc: true
 ---
