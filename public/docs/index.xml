@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Početak</title><link>http://meshserbia.com/docs/</link><description>Recent content in Početak on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate><atom:link href="http://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Uvod</title><link>http://meshserbia.com/docs/introdukcija/</link><pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate><guid>http://meshserbia.com/docs/introdukcija/</guid><description>
-&lt;h2&gt;1. Šta je Meshtastic?&lt;span class="hx:absolute hx:-mt-20" id="1-šta-je-meshtastic"&gt;&lt;/span&gt;
-&lt;a href="#1-%c5%a1ta-je-meshtastic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
+&lt;h2&gt;Šta je Meshtastic?&lt;span class="hx:absolute hx:-mt-20" id="šta-je-meshtastic"&gt;&lt;/span&gt;
+&lt;a href="#%c5%a1ta-je-meshtastic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
 &lt;h3&gt;Tehnologija&lt;span class="hx:absolute hx:-mt-20" id="tehnologija"&gt;&lt;/span&gt;
 &lt;a href="#tehnologija" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Meshtastic koristi &lt;strong&gt;LoRa&lt;/strong&gt; modulaciju, koja omogućava bežičnu komunikaciju na udaljenostima od nekoliko kilometara, zavisno od terena. Uređaji koji koriste ovu tehnologiju mogu međusobno razmenjivati poruke, deliti lokaciju putem GPS-a, i biti povezani u mrežu koja ne zavisi od centralizovanih infrastruktura.&lt;/p&gt;
 &lt;h3&gt;Upotreba&lt;span class="hx:absolute hx:-mt-20" id="upotreba"&gt;&lt;/span&gt;
@@ -20,32 +20,35 @@
 &lt;li&gt;&lt;strong&gt;Solarni repetitor&lt;/strong&gt;: Za ovu svrhu je ključna niska potrošnja energije i jaka antena. Preporučuje se korišćenje nRF52 čipa sa velikom antenom.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mobilni nodovi&lt;/strong&gt;: Ako pravite prenosive uređaje koje ćete nositi sa sobom ili davati prijateljima koji nisu tehnički potkovani, birajte diskretne, elegantne i jednostavne za korišćenje nodove.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p&gt;</description></item><item><title>Preporučeni uređaji za kupovinu</title><link>http://meshserbia.com/docs/howtomakeanode/</link><pubDate>Sun, 13 Apr 2025 20:10:06 +0200</pubDate><guid>http://meshserbia.com/docs/howtomakeanode/</guid><description>
-&lt;h3&gt;Šta treba znati pre kupovine.&lt;span class="hx:absolute hx:-mt-20" id="šta-treba-znati-pre-kupovine"&gt;&lt;/span&gt;
-&lt;a href="#%c5%a1ta-treba-znati-pre-kupovine" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Uređaji sa novijim Semtech SX126x ili LR11xx serijama&lt;/strong&gt;&lt;br&gt;
-Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
-&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Uređaji sa &lt;strong&gt;SX127x&lt;/strong&gt; čipom treba izbegavati.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ol start="2"&gt;
+&lt;p&gt;Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p&gt;</description></item><item><title>Šta treba znati pre kupovine.</title><link>http://meshserbia.com/docs/howtomakeanode/</link><pubDate>Sun, 13 Apr 2025 20:10:06 +0200</pubDate><guid>http://meshserbia.com/docs/howtomakeanode/</guid><description>
+&lt;div class="hextra-steps hx:ml-4 hx:mb-12 hx:ltr:border-l hx:rtl:border-r hx:border-gray-200 hx:ltr:pl-6 hx:rtl:pr-6 hx:dark:border-neutral-800 [counter-reset:step]"&gt;
+&lt;h3&gt;1. Tip uređaja&lt;span class="hx:absolute hx:-mt-20" id="1-tip-uređaja"&gt;&lt;/span&gt;
+&lt;a href="#1-tip-ure%c4%91aja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Uređaji bazirani na nRF52 čipovima&lt;/strong&gt;&lt;br&gt;
 Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
-&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Note&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth-a ili USB-a.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth ili USB-a.&lt;/strong&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;&lt;strong&gt;Uređaji bazirani na ESP32 čipovima&lt;/strong&gt;&lt;br&gt;
-Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.&lt;/li&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uređaji bazirani na ESP32 čipovima&lt;/strong&gt;&lt;br&gt;
+Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uređaji sa novijim Semtech SX126x ili LR11xx serijama&lt;/strong&gt;&lt;br&gt;
+Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-red-200 hx:bg-red-100 hx:text-red-900 hx:dark:border-red-200/30 hx:dark:bg-red-900/30 hx:dark:text-red-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Uređaji sa &lt;strong&gt;SX127x&lt;/strong&gt; čipom izbegavati&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2&gt;Preporučeni uređaji&lt;span class="hx:absolute hx:-mt-20" id="preporučeni-uređaji"&gt;&lt;/span&gt;
 &lt;a href="#preporu%c4%8deni-ure%c4%91aji" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Meshtastic može biti instaliran na širok broj uređaja. Iako mnogo više uređaja nego sa ove liste mogu pokretati Meshtastic i međusobno komunicirati, neki uređaji su posebno popularni u Srpskoj zajednici. Evo uređaja koje Srpska zajednica preporučuje:&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
@@ -148,8 +151,9 @@ Tabela ispod sadrži antene koje preporučuje naša zajednica.&lt;/p&gt;
 &lt;td&gt;Fiksni&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Kako se povezati na Srpsku meshtastic mrežu</title><link>http://meshserbia.com/docs/howtousemeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate><guid>http://meshserbia.com/docs/howtousemeshtastic/</guid><description>
-&lt;p&gt;Nakon što ste nabavili uređaj, važno je da ga &lt;strong&gt;ažurirate&lt;/strong&gt; na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Kliknite na &lt;a href="https://flasher.meshtastic.org/"target="_blank" rel="noopener"&gt;link za ažuiranje&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;/table&gt;
+&lt;h2&gt;Ažurinje&lt;span class="hx:absolute hx:-mt-20" id="ažurinje"&gt;&lt;/span&gt;
+&lt;a href="#a%c5%beurinje" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nakon što ste nabavili uređaj, važno je da ga &lt;strong&gt;ažurirate&lt;/strong&gt; na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Kliknite na &lt;a href="https://flasher.meshtastic.org/"target="_blank" rel="noopener"&gt;link za ažuiranje&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; i pratite instrukcije na ekranu.&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
@@ -158,9 +162,11 @@ Tabela ispod sadrži antene koje preporučuje naša zajednica.&lt;/p&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – &lt;strong&gt;&amp;ldquo;wipe settings&amp;rdquo;&lt;/strong&gt;. Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;⚙️ Podešavanja&lt;span class="hx:absolute hx:-mt-20" id="-podešavanja"&gt;&lt;/span&gt;
-&lt;a href="#-pode%c5%a1avanja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
+&lt;/div&gt;</description></item><item><title>Povezivanje na mrežu</title><link>http://meshserbia.com/docs/howtousemeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate><guid>http://meshserbia.com/docs/howtousemeshtastic/</guid><description>
+&lt;p&gt;Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i Channel.
+Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju.
+Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom&lt;/p&gt;
+&lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
 &lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
 class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
 role="tab"
@@ -179,10 +185,10 @@ aria-controls="tabs-panel-2"&gt;📡 Channel&lt;/button&gt;&lt;/div&gt;
 &lt;div
 class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
 id="tabs-panel-0"
-role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
-&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;table&gt;
@@ -245,14 +251,15 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;div class="hx:overflo
 &lt;td&gt;Ako uključiš, uređaj ignoriše sve dolazne poruke (ne preporučuje se)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 &lt;div
 class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
 id="tabs-panel-1"
-role="tabpanel"&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
-&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+role="tabpanel"&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;📌 &lt;em&gt;Nakon podešavanja MQTT-a, obavezno &lt;strong&gt;restartuj&lt;/strong&gt; uređaj. Postoji bug u firmware-u koji sprečava povezivanje bez restarta.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Nakon podešavanja MQTT-a, obavezno &lt;strong&gt;restartuj&lt;/strong&gt; uređaj. Postoji bug u firmware-u koji sprečava povezivanje bez restarta. Ako je MQTT offline, uređaj nece sacuvati MQTT podesavanja!&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;table&gt;
@@ -326,8 +333,7 @@ role="tabpanel"&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Ako koristiš bluetooth i MQTT, uključi &lt;strong&gt;Proxy to client&lt;/strong&gt;, inače nećeš imati pristup MQTT mreži.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
 &lt;div
 class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
 id="tabs-panel-2"
@@ -389,7 +395,7 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 target="_blank" rel="noreferrer"&gt;&lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"/&gt;&lt;/svg&gt;Otvori dashboard 📈&lt;/span&gt;&lt;div class="hextra-badge hextra-card-tag"&gt;
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;Grafana&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
-&lt;/div&gt;</description></item><item><title>Kako Koristiti Meshtastic Aplikaciju</title><link>http://meshserbia.com/docs/howtomeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:08:16 +0200</pubDate><guid>http://meshserbia.com/docs/howtomeshtastic/</guid><description>
+&lt;/div&gt;</description></item><item><title>Korišćenje aplikacije</title><link>http://meshserbia.com/docs/howtomeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:08:16 +0200</pubDate><guid>http://meshserbia.com/docs/howtomeshtastic/</guid><description>
 &lt;p&gt;Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne brinite, jer ovaj vodič će vas provesti kroz sve tri opcije za korišćenje aplikacije: na Androidu, iPhoneu i Web klijentu. Samo izaberite sekciju ispod da biste započeli.&lt;/p&gt;
 &lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
 &lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
@@ -412,13 +418,13 @@ class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected
 id="tabs-panel-0"
 role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Android aplikacija se koristi za komunikaciju i može prikazati lokaciju svih članova vaše grupe. Svaki član vaše grupe može videti ako dozvoli lokaciju i udaljenost drugih članova, kao i poruke poslate u vaš grupni chat.&lt;/p&gt;
 &lt;p&gt;Možete napraviti i privatni enkriptovani kanal gde samo vi i izabrani članovi mogu videti sadržaj poruka.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.0nema-povezanog.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.0nema-povezanog.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Otvorite aplikaciju i treba da vidite karticu &amp;ldquo;Podešavanja&amp;rdquo; kao na ekranu iznad. Obratite pažnju na oblak sa crtom kroz njega u gornjem desnom uglu, što označava da uređajaj nije povezan sa telefonom. Možete prelaziti kroz kartice, ali ništa mnogo neće biti vidljivo dok ne povežete vaš meshtastic uređaj.&lt;/p&gt;
 &lt;h2&gt;Povezivanje&lt;span class="hx:absolute hx:-mt-20" id="povezivanje"&gt;&lt;/span&gt;
 &lt;a href="#povezivanje" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Biće vam potreban uređaj sa instaliranim Meshtastic-om da biste nastavili dalje. Pogledajte odsek za &lt;a href="http://meshserbia.com/docs/howtousemeshtastic/"&gt;početak korišćenja&lt;/a&gt; za informacije o tome kako to da uradite.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.1klik-na-dugme.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.1klik-na-dugme.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Da biste pronašli uređaje za povezivanje putem Bluetooth-a, kliknite na &amp;ldquo;+&amp;rdquo; dugme u donjem desnom uglu. Uređaji povezani putem Wi-Fi-a koji koriste istu mrežu kao vaš telefon trebalo bi da budu automatski prepoznati, ili ih možete ručno odabrati unosom njihove IP adrese. Ako povežete uređaj putem USB-a na vaš telefon, uređaj biće automatski prepoznat.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.2.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.2.webp" width="300" loading="lazy"&gt;
 &lt;ol&gt;
 &lt;li&gt;Odaberite uređaj, &lt;code&gt;Meshtastic_769d&lt;/code&gt; u ovom primeru. (Videćete sve uređaje u dometu, pa pazite da odaberete pravi.)&lt;/li&gt;
 &lt;li&gt;Pre nego što se povežete prvi put, potrebno je da &amp;ldquo;uparite&amp;rdquo; uređaje kako bi omogućili komunikaciju između njih. Neki uređaji su bez PIN-a, dok drugi zahtevaju unos PIN-a prikazanog na ekranu uređaja.&lt;/li&gt;
@@ -432,9 +438,9 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;ol start="3"&gt;
 &lt;li&gt;Ovo pokreće komunikaciju sa uređajem. Ikona oblaka na statusnoj traci trebalo bi da se promeni i pokaže checkmark.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.3.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.3.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Ikona oblaka u gornjem desnom uglu pokazuje da li ste povezani sa uređajem. Trenutno ima tri stanja:&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.4spojeno-bez-teksta.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.4spojeno-bez-teksta.webp" width="300" loading="lazy"&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Oblak sa checkmarkom: Uređaj je povezan sa aplikacijom.&lt;/p&gt;
@@ -449,7 +455,7 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;h2&gt;Uobičajena podešavanja&lt;span class="hx:absolute hx:-mt-20" id="uobičajena-podešavanja"&gt;&lt;/span&gt;
 &lt;a href="#uobi%c4%8dajena-pode%c5%a1avanja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Promenite svoje korisničko ime&lt;span class="hx:absolute hx:-mt-20" id="promenite-svoje-korisničko-ime"&gt;&lt;/span&gt;
 &lt;a href="#promenite-svoje-korisni%c4%8dko-ime" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Izmenite polje &amp;ldquo;Your Name&amp;rdquo;, na primer u &amp;ldquo;Mike Bird&amp;rdquo;. Ovo je ime koje će drugi ljudi videti, zato ga učinite jedinstvenim. Inicijali, npr. &amp;ldquo;MB&amp;rdquo;, takođe treba da budu jedinstveni i koristiće se za identifikaciju u porukama i na ekranima uređaja. Inicijali se mogu prilagoditi u podešavanjima radio uređaja, pod sekcijom korisnička podešavanja. Četiri karaktera prikazana posle vaših inicijala ne mogu se promeniti. Uređaji bez podešenog imena prikazivaće tih četiri karaktera kao inicijale uređaja.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.5promeni-ime.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.5promeni-ime.webp" width="300" loading="lazy"&gt;
 &lt;h3&gt;Napravite novi kanal&lt;span class="hx:absolute hx:-mt-20" id="napravite-novi-kanal"&gt;&lt;/span&gt;
 &lt;a href="#napravite-novi-kanal" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
@@ -459,7 +465,7 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;/div&gt;
 &lt;p&gt;Možete kreirati novi kanal i podeliti detalje sa svojom grupom. Grupa je privatna i samo oni koji imaju te informacije mogu se pridružiti i videti poruke. Ovo je potrebno uraditi samo jednom na početku, i zatim svaki put kada želite da promenite ili napravite novu mesh mrežu.&lt;/p&gt;
 &lt;p&gt;Kartica „Channel“ omogućava vam da napravite novu privatnu mesh mrežu. Ovaj ekran je prvobitno zaključan kako biste izbegli slučajne izmene. Pritisnite ikonu katanca kako biste omogućili izmenu. Prvo izaberite opcije kanala, kao što je prikazano ovde, i odaberite najprikladniju opciju:&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.6zameni-me-kako-se-pravi-kanal.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.6zameni-me-kako-se-pravi-kanal.webp" width="300" loading="lazy"&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -467,15 +473,15 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Ovde smo izabrali &lt;code&gt;Long Range / Fast&lt;/code&gt;, a zatim napravili ime kanala. Ovo identifikuje vašu grupu, u ovom slucaju &amp;ldquo;Owl Team&amp;rdquo;.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.7owl-team.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.7owl-team.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Videćete upozorenje jer promena kanala prekida komunikaciju sa vašom grupom, tj. ako promenite podešavanja bez deljenja novih detalja sa grupom.&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.8savechannel.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.8savechannel.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Aplikacija će generisati novi QR kod na ekranu. On sadrži detalje o kanalu i nasumični 256-bitni ključ za deljenje sa novom grupom. QR kod možete podeliti sa drugim Meshtastic korisnicima ili koristiti dugme Share i podeliti link putem poruke, SMS-a ili email-a. Link će izgledati ovako: &lt;code&gt;https://www.meshtastic.org/d/#CgUYAyIBAQ&lt;/code&gt;&lt;/p&gt;
 &lt;h3&gt;Pridruži se kanalu&lt;span class="hx:absolute hx:-mt-20" id="pridruži-se-kanalu"&gt;&lt;/span&gt;
 &lt;a href="#pridru%c5%bei-se-kanalu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Ako drugi korisnik podeli QR kod, moći ćete da ga skenirate direktno kamerom pomoću dugmeta &lt;code&gt;Scan&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/1.9qrscan.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/1.9qrscan.webp" width="300" loading="lazy"&gt;
 &lt;ol start="2"&gt;
 &lt;li&gt;Ako je kanal podeljen iz fajla ili linka pomoću dugmeta &lt;code&gt;Share&lt;/code&gt;, možete kliknuti na fajl ili link i treba da izaberete &amp;ldquo;Otvori pomoću Meshtastic&amp;rdquo;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -492,7 +498,7 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ako vidiš opciju &amp;ldquo;Otvori podržane linkove&amp;rdquo;, uveri se da je omogućena.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/2.0novi-kanal.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/2.0novi-kanal.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Nastavite i trebalo bi da vidite poruku kao što je &amp;ldquo;Želite li da pređete na kanal &amp;lsquo;Owl Team&amp;rsquo;?&amp;rdquo;. Prihvatite ovo, i aplikacija će preći na ovaj novi kanal. Izgubićete trenutno podešeno podešavanje kanala!&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Note&lt;/p&gt;
@@ -512,14 +518,14 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;h4&gt;Preciznost pozicije&lt;span class="hx:absolute hx:-mt-20" id="preciznost-pozicije"&gt;&lt;/span&gt;
 &lt;a href="#preciznost-pozicije" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Nivoi preciznosti u aplikaciji predstavljaju udaljenost unutar koje se možete nalaziti u odnosu na neku tačku (ali ne vašu trenutnu lokaciju). Možete to zamisliti kao kružnicu oko te tačke, gde što je veći krug, manje je precizno određeno vaše mesto unutar njega. Ovo je koristno ako zelite da podelite gde se nalazi vas uređaj ali ne preciznu lokaciju, (npr, samo grad ili deo grada, ali ne preciznu lokaciju)&lt;/p&gt;
 &lt;h3&gt;Slanje poruka&lt;span class="hx:absolute hx:-mt-20" id="slanje-poruka"&gt;&lt;/span&gt;
-&lt;a href="#slanje-poruka" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.1dopisivanje.webp" width="300"&gt;
+&lt;a href="#slanje-poruka" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.1dopisivanje.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Prozor za poruke funkcioniše kao u većini aplikacija za dopisivanje. Imajte na umu da je vaš primarni kanal, tj. kontakt &lt;code&gt;LongFast&lt;/code&gt;, uvek prikazan i funkcioniše kao grupni chat. Ostali kontakti su za direktne poruke ili privatne grupne chatove.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dugim pritiskom na kontakte ili poruke možete odabrati opcije, kao što je brisanje.&lt;/li&gt;
 &lt;li&gt;Pritisnite nod sa sekcije NODES za slanje Direktnih Poruka (DM) .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Sa LoRa (ili bilo kojim radijem) postoji određena nesigurnost u vezi sa tim da li je poruka primljena, pa postoji potvrda ugrađena u protokol (Funkcionise slicno kao &lt;code&gt;seen&lt;/code&gt; funkcija na whatsapp-u ili Viber-u ). Male ikonice su prikazane desno od poruka koje šaljete:&lt;/p&gt;
-&lt;img src="http://meshserbia.com/images/android-tutorial/2.2ikonice.webp" width="300"&gt;
+&lt;img src="http://meshserbia.com/images/android-tutorial/2.2ikonice.webp" width="300" loading="lazy"&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Oblak sa strelicom nagore: poruka čeka da bude poslata preko uređaja.&lt;/p&gt;
@@ -539,7 +545,7 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;/ul&gt;
 &lt;p&gt;Podrazumevano ne postoji dugoročno čuvanje i prosleđivanje poruka, tako da poruke koje nisu primljene tokom prenosa – gube se.&lt;/p&gt;
 &lt;h3&gt;Mreža&lt;span class="hx:absolute hx:-mt-20" id="mreža"&gt;&lt;/span&gt;
-&lt;a href="#mre%c5%bea" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.5nod-lista.webp" width="300"&gt;
+&lt;a href="#mre%c5%bea" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.5nod-lista.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Tab nodova prikazuje sve korisnike (uređaje) koji su se povezali na isti kanal. Za svaki nod prikazuje se vreme poslednje aktivnosti, lokaciju i udaljenost (kada su dostupne), kao i poslednje poznato stanje baterije. U gornjem primeru, Monkey je lokalni korisnik, Rabbit je poslednji put primećen pre 10 minuta i udaljen je 50m, a Panda je poslednji put primećena pre 11 minuta i udaljena je 5m.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tapnite na nod na listi da biste prikazali više detalja o njemu.&lt;/li&gt;
@@ -550,10 +556,10 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;p&gt;Meshtastic Andro
 &lt;/svg&gt;&lt;/a&gt; na svojim uređajima, tapkanje na obojeni deo čvora takođe prikazuje opciju za daljinsko konfigurisanje nod-a.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Prikaži mapu&lt;span class="hx:absolute hx:-mt-20" id="prikaži-mapu"&gt;&lt;/span&gt;
-&lt;a href="#prika%c5%bei-mapu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.3mapa.webp" width="300"&gt;
+&lt;a href="#prika%c5%bei-mapu" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.3mapa.webp" width="300" loading="lazy"&gt;
 &lt;p&gt;Sekcija mape prikazuje lokalnu mapu sa ikonicom za svaki aktivni mesh nod koji ima podeljenu lokaciju sa drugima. Imena korisnika su prikazana iznad ikonica.&lt;/p&gt;
 &lt;h3&gt;Offline mape&lt;span class="hx:absolute hx:-mt-20" id="offline-mape"&gt;&lt;/span&gt;
-&lt;a href="#offline-mape" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.4skinimapu.webp" width="300"&gt;
+&lt;a href="#offline-mape" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;img src="http://meshserbia.com/images/android-tutorial/2.4skinimapu.webp" width="300" loading="lazy"&gt;
 &lt;ul&gt;
 &lt;li&gt;Neki tipovi mapa omogućavaju preuzimanje za korišćenje kada nema interneta. Ako su offline mape dostupne za izabrani tip mape, ikonica za preuzimanje će se pojaviti u donjem desnom uglu mape. Tapnite na ovu ikonicu i izaberite opciju &lt;strong&gt;Preuzmi region&lt;/strong&gt;, zatim označite oblast koju želite da preuzmete.&lt;/li&gt;
 &lt;/ul&gt;
@@ -580,7 +586,7 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;li&gt;Direktno sa ESP32 nod-a putem meshtastic.local ili IP adrese uređaja. (&lt;strong&gt;nije&lt;/strong&gt; preporučeno)&lt;/li&gt;
 &lt;li&gt;Hosting na sopstvenom serveru. (Za napredne korisnike)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;img src="http://meshserbia.com/images/web-tutorial/1.0pregled.webp" width="600"&gt;
+&lt;img src="http://meshserbia.com/images/web-tutorial/1.0pregled.webp" width="600" loading="lazy"&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/&gt;&lt;/svg&gt;Tip&lt;/p&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -603,42 +609,48 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;p&gt;Razlikuje se samo algoritam koliko brzo ponovi poruku, nakon sto je dobije i logika za retry&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start="3"&gt;
+&lt;li&gt;Zašto smo mi na medium_fast, a sve zemlje u okruženju i Evropa je na long_fast? Šta propuštam?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;LongFast je previse spor za kada mreza poraste. Najvece mreze se ubrzavaju, kod nas je doneta odluka da se odmah koristi medium_fast, da ne bi neko morao da ide po planinama, da podesava sve nodove&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start="4"&gt;
 &lt;li&gt;Koliko poruka se čuva na uređaju?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Trenutno je broj nepoznat, ali dosta.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="4"&gt;
+&lt;ol start="5"&gt;
 &lt;li&gt;Koje delove da kupim za solar nod ili repetitor, jel postoji vodič?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Da, postoji videti sekciju &lt;a href="http://meshserbia.com/docs/solarnode/"&gt;solar nod&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="5"&gt;
+&lt;ol start="6"&gt;
 &lt;li&gt;Kako da povežem svoj nod na WIFI?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Videti sekciju o &lt;a href="http://meshserbia.com/docs/naprednapodesavanja/"&gt;naprednim podešavanjima&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="6"&gt;
+&lt;ol start="7"&gt;
 &lt;li&gt;Koliko je privatna komunikacija?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Ako šaljete DM ili napravite privatni kanal, niko neće moći da čita vaše poruke.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="7"&gt;
+&lt;ol start="8"&gt;
 &lt;li&gt;Zašto bih koristio Meshtastic umesto običnog interneta ili telefona?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Radi tamo gde nema signala ili interneta.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="8"&gt;
+&lt;ol start="9"&gt;
 &lt;li&gt;Da li je Meshtastic besplatan?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Da, softver je open&amp;gt;source i besplatan.&lt;/p&gt;
+&lt;p&gt;Da, softver je libre otvorenog koda i besplatan.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol start="9"&gt;
+&lt;ol start="10"&gt;
 &lt;li&gt;Da li mi treba internet za korišćenje Meshtastica?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
@@ -680,7 +692,7 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;li&gt;Kako se povezuje Meshtastic na kompjuter?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Preko USB kabla i Web client&amp;gt;a&lt;/p&gt;
+&lt;p&gt;Preko USB kabla i Web client-a&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start="2"&gt;
 &lt;li&gt;Šta je firmware i kako se flešuje?&lt;/li&gt;
@@ -770,12 +782,6 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;p&gt;Pošalji poruku i proveri LED svetlo ili log.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start="6"&gt;
-&lt;li&gt;Zašto smo mi na medium_fast, a sve zemlje u okruženju i Evropa je na long_fast? Šta propuštam?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;LongFast je previse spor za kada mreza poraste. Najvece mreze se ubrzavaju, kod nas je doneta odluka da se odmah koristi medium_fast, da ne bi neko morao da ide po planinama, da podesava sve nodove&amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start="7"&gt;
 &lt;li&gt;Nigde nisam našao da li svaki node ponovi poruku koju dobije ili samo prvi koji je dobije (a koji ima najmanji snr)? Može li potvrda da je svaki ponovi, pošto tako razumem?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;

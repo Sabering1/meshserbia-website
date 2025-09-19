@@ -7,7 +7,7 @@ cascade:
 weight: 1
 ---
 
-## 1. Šta je Meshtastic?
+## Šta je Meshtastic?
 
 **Meshtastic** je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći **LoRa** (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.
 

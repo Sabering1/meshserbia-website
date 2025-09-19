@@ -13,25 +13,28 @@ weight: 5
 2. Koja je svrha rutera, ako ruter ponovi poruku, da li onda i node-ovi posle toga ponove, ili samo čuju da je router ponovio i oni ne ponavljaju?
 > Razlikuje se samo algoritam koliko brzo ponovi poruku, nakon sto je dobije i logika za retry
 
-3. Koliko poruka se čuva na uređaju? 
+3. Zašto smo mi na medium_fast, a sve zemlje u okruženju i Evropa je na long_fast? Šta propuštam?
+> LongFast je previse spor za kada mreza poraste. Najvece mreze se ubrzavaju, kod nas je doneta odluka da se odmah koristi medium_fast, da ne bi neko morao da ide po planinama, da podesava sve nodove...
+
+4. Koliko poruka se čuva na uređaju? 
 > Trenutno je broj nepoznat, ali dosta.
 
-4. Koje delove da kupim za solar nod ili repetitor, jel postoji vodič?
+5. Koje delove da kupim za solar nod ili repetitor, jel postoji vodič?
 > Da, postoji videti sekciju [solar nod](/docs/solarnode)
 
-5. Kako da povežem svoj nod na WIFI?
+6. Kako da povežem svoj nod na WIFI?
 > Videti sekciju o [naprednim podešavanjima](/docs/naprednapodesavanja)
 
-6. Koliko je privatna komunikacija?
+7. Koliko je privatna komunikacija?
 > Ako šaljete DM ili napravite privatni kanal, niko neće moći da čita vaše poruke.
 
-7. Zašto bih koristio Meshtastic umesto običnog interneta ili telefona?
+8. Zašto bih koristio Meshtastic umesto običnog interneta ili telefona?
 >  Radi tamo gde nema signala ili interneta.
 
-8. Da li je Meshtastic besplatan?
->  Da, softver je open>source i besplatan.
+9. Da li je Meshtastic besplatan?
+>  Da, softver je libre otvorenog koda i besplatan.
 
-9. Da li mi treba internet za korišćenje Meshtastica?
+10. Da li mi treba internet za korišćenje Meshtastica?
 >  Ne, radi potpuno offline. Internet je opcionalan.
 
 ### 📦 Hardver i komponente
@@ -54,7 +57,7 @@ weight: 5
 ### ⚙️ Povezivanje i podešavanje
 
 1. Kako se povezuje Meshtastic na kompjuter?
-> Preko USB kabla i Web client>a
+> Preko USB kabla i Web client-a
 
 2. Šta je firmware i kako se flešuje?
 > Softver koji uređaj pokreće. Flešuje se preko Meshtastic Flasher-a.
@@ -104,10 +107,7 @@ weight: 5
 5. Kako da testiram da li moj uređaj radi ispravno?
 > Pošalji poruku i proveri LED svetlo ili log.
 
-6. Zašto smo mi na medium_fast, a sve zemlje u okruženju i Evropa je na long_fast? Šta propuštam?
-> LongFast je previse spor za kada mreza poraste. Najvece mreze se ubrzavaju, kod nas je doneta odluka da se odmah koristi medium_fast, da ne bi neko morao da ide po planinama, da podesava sve nodove...
-
-7. Nigde nisam našao da li svaki node ponovi poruku koju dobije ili samo prvi koji je dobije (a koji ima najmanji snr)? Može li potvrda da je svaki ponovi, pošto tako razumem?
+6. Nigde nisam našao da li svaki node ponovi poruku koju dobije ili samo prvi koji je dobije (a koji ima najmanji snr)? Može li potvrda da je svaki ponovi, pošto tako razumem?
 > Svaki node, dok god preostali broj hopova ne padne na nulu. Pod uslovom da ima programiran taj kanal.
 
 ### 🌐 Naprednija pitanja

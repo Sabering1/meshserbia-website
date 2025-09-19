@@ -82,42 +82,42 @@ layout: wide
 
 <div id="examples-grid">
   <article class="example-card reveal" data-index="0" data-lat="44.8176" data-lon="20.4569">
-    <div class="card-media"><img src="/images/showcase/primer1.webp" alt="Београд"></div>
+    <div class="card-media"><img src="/images/showcase/primer1.webp" alt="Београд" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Београд</h3><div class="card-meta">Урбана мрежа</div></div>
   </article>
 
   <article class="example-card reveal" data-index="1" data-lat="44.0947" data-lon="20.1022">
-    <div class="card-media"><img src="/images/showcase/primer2.webp" alt="Дивчибаре"></div>
+    <div class="card-media"><img src="/images/showcase/primer2.webp" alt="Дивчибаре" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Дивчибаре</h3><div class="card-meta">Планински чвор</div></div>
   </article>
 
   <article class="example-card reveal" data-index="2" data-lat="43.2761" data-lon="21.3342">
-    <div class="card-media"><img src="/images/showcase/primer3.webp" alt="Куршумлија"></div>
+    <div class="card-media"><img src="/images/showcase/primer3.webp" alt="Куршумлија" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Куршумлија</h3><div class="card-meta">Рурални чвор</div></div>
   </article>
 
   <article class="example-card reveal" data-index="3" data-lat="45.3342" data-lon="21.2833">
-    <div class="card-media"><img src="/images/showcase/primer4.webp" alt="Вршац"></div>
+    <div class="card-media"><img src="/images/showcase/primer4.webp" alt="Вршац" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Вршац</h3><div class="card-meta">Регионални чвор</div></div>
   </article>
 
   <article class="example-card reveal" data-index="4" data-lat="45.4167" data-lon="20.3833">
-    <div class="card-media"><img src="/images/showcase/primer5.webp" alt="Банатско Ново Село"></div>
+    <div class="card-media"><img src="/images/showcase/primer5.webp" alt="Банатско Ново Село" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Банатско Ново Село</h3><div class="card-meta">Пољопривредни нод</div></div>
   </article>
 
   <article class="example-card reveal" data-index="5" data-lat="44.8694" data-lon="20.6500">
-    <div class="card-media"><img src="/images/showcase/primer6.webp" alt="Панчево"></div>
+    <div class="card-media"><img src="/images/showcase/primer6.webp" alt="Панчево" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Панчево</h3><div class="card-meta">Индустријски чвор</div></div>
   </article>
 
   <article class="example-card reveal" data-index="6" data-lat="45.3342" data-lon="21.2833">
-    <div class="card-media"><img src="/images/showcase/primer7.webp" alt="Вршац 2"></div>
+    <div class="card-media"><img src="/images/showcase/primer7.webp" alt="Вршац 2" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Вршац</h3><div class="card-meta">Ојачани сигнал</div></div>
   </article>
 
   <article class="example-card reveal" data-index="7" data-lat="44.8678" data-lon="20.5330">
-    <div class="card-media"><img src="/images/showcase/primer8.webp" alt="Борча"></div>
+    <div class="card-media"><img src="/images/showcase/primer8.webp" alt="Борча" loading="lazy"></div>
     <div class="card-body"><h3 class="card-title">Борча</h3><div class="card-meta">Субурбани нод</div></div>
   </article>
 </div>

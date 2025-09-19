@@ -1,25 +1,31 @@
 ---
 date: '2025-04-13T20:10:06+02:00'
 draft: false
-title: 'Preporučeni uređaji za kupovinu'
+title: 'Šta treba znati pre kupovine.'
 weight: 2
+toc: true
 ---
+{{% steps %}}
 
-### Šta treba znati pre kupovine.
+### 1. Tip uređaja
 
-1. **Uređaji sa novijim Semtech SX126x ili LR11xx serijama**  
-Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.
-> [!WARNING]
-> Uređaji sa **SX127x** čipom treba izbegavati.
 
-2. **Uređaji bazirani na nRF52 čipovima**  
+1. **Uređaji bazirani na nRF52 čipovima**  
 Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom. 
-> [!NOTE]
-> **nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth-a ili USB-a.**
 
-3. **Uređaji bazirani na ESP32 čipovima**  
+{{< callout type="info" >}}
+**nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth ili USB-a.**
+{{< /callout >}}
+
+2. **Uređaji bazirani na ESP32 čipovima**  
 Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.
 
+3. **Uređaji sa novijim Semtech SX126x ili LR11xx serijama**  
+Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.
+
+{{< callout type="error" >}}
+  Uređaji sa **SX127x** čipom izbegavati
+{{< /callout >}}
 
 ## Preporučeni uređaji
 
@@ -51,4 +57,12 @@ Tabela ispod sadrži antene koje preporučuje naša zajednica.
 | [NB-IoT/LoRa Soft Antenna](https://a.aliexpress.com/_EvpEZC4)                   |  5$        | SMA male – potreban adapter                                                             | Mobilni             |
 | [TX868-BLG-40 868MHz](https://www.aliexpress.com/item/1005007301116616.html)    | 20$        | N   male – potreban [adapter](https://www.aliexpress.com/item/4001038164458.html)       | Fiksni              |
 
+## Ažurinje
+Nakon što ste nabavili uređaj, važno je da ga **ažurirate** na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Kliknite na [link za ažuiranje](https://flasher.meshtastic.org/) i pratite instrukcije na ekranu.
 
+
+{{< callout emoji="🌐" >}}
+Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**. Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.
+{{< /callout >}}
+
+{{% /steps %}}

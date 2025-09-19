@@ -1,27 +1,22 @@
 ---
 date: '2025-04-13T20:10:24+02:00'
 draft: false
-title: 'Kako se povezati na Srpsku meshtastic mrežu'
+title: 'Povezivanje na mrežu'
 weight: 3
 ---
+Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i Channel.
+Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju.
+Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom
 
-Nakon što ste nabavili uređaj, važno je da ga **ažurirate** na najnoviju stabilnu verziju firmware-a. Način ažuriranja zavisi od vrste čipa. Kliknite na [link za ažuiranje](https://flasher.meshtastic.org/) i pratite instrukcije na ekranu.
-
-
-{{< callout emoji="🌐" >}}
-Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanja – **"wipe settings"**. Samo Microsoft Edge i Google Chrome su podržani web pregledači za ažuriranje uređaja.
-{{< /callout >}}
-
----
-
-### ⚙️ Podešavanja
 
 {{< tabs items="📶 LoRa,🌐 MQTT,📡 Channel" >}}
 
   {{< tab >}}
   
-> [!WARNING]
-> Isključi opciju **Ignore MQTT**, Uključi opciju **OK to MQTT**    
+
+{{< callout type="important" >}} 
+Isključi opciju **Ignore MQTT**, Uključi opciju **OK to MQTT**
+{{< /callout >}}
 
 | Opcija                   | Preporučena vrednost | Objašnjenje                                                                 |
 |--------------------------|----------------------|------------------------------------------------------------------------------|
@@ -41,9 +36,9 @@ Ako prvi put flešuješ uređaj, obavezno označi opciju za brisanje podešavanj
   {{< tab >}}
 
 
-
-> [!WARNING]
-> 📌 *Nakon podešavanja MQTT-a, obavezno **restartuj** uređaj. Postoji bug u firmware-u koji sprečava povezivanje bez restarta.*
+{{< callout type="important" >}} 
+Nakon podešavanja MQTT-a, obavezno **restartuj** uređaj. Postoji bug u firmware-u koji sprečava povezivanje bez restarta. Ako je MQTT offline, uređaj nece sacuvati MQTT podesavanja! 
+{{< /callout >}}
 
 
 | Opcija                  | Preporučena vrednost         | Objašnjenje                                                                 |

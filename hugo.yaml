@@ -129,6 +129,18 @@ params:
       # excludeHash: "true" # optional
       # https://umami.is/docs/tracker-configuration#data-domains
       # doNotTrack: "true" # optional
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: "Sabering1/meshserbia-website"
+      repoId: "R_kgDOOZY74Q"
+      category: "General"
+      categoryId: "DIC_kwDOOZY74c4CvfEh"
+
+
+
 
 
 
