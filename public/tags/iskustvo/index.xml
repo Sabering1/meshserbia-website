@@ -1,6 +1,37 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Iskustvo</title><link>http://meshserbia.com/tags/iskustvo/</link><description>Recent content in Iskustvo on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://meshserbia.com/tags/iskustvo/index.xml" rel="self" type="application/rss+xml"/><item><title>Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu</title><link>http://meshserbia.com/blog/1.0-kokanovic/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate><guid>http://meshserbia.com/blog/1.0-kokanovic/</guid><description>
-&lt;p&gt;Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na solarno napajanje, ovde u Srbiji. U tekstu govori o izazovima na koje je nailazio, deli konkretne tehničke detalje vezane za instalaciju i opisuje rešenja koja su mu pomogla da prevaziđe probleme. Ceo proces prikazan je kroz praktične savete i korisne preporuke, pa će tekst biti posebno zanimljiv svima koji planiraju sličan projekat ili žele da saznaju više o ovoj temi.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MeshSerbia – Iskustvo</title>
+    <link>http://localhost:1313/tags/iskustvo/</link>
+    <description>Recent content in Iskustvo on MeshSerbia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sr_Latn</language>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/tags/iskustvo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu</title>
+      <link>http://localhost:1313/blog/1.0-kokanovic/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/1.0-kokanovic/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na solarno napajanje, ovde u Srbiji. U tekstu govori o izazovima na koje je nailazio, deli konkretne tehničke detalje vezane za instalaciju i opisuje rešenja koja su mu pomogla da prevaziđe probleme. Ceo proces prikazan je kroz praktične savete i korisne preporuke, pa će tekst biti posebno zanimljiv svima koji planiraju sličan projekat ili žele da saznaju više o ovoj temi.&lt;/p&gt;
 &lt;p&gt;Ceo njegov blog možete pročitati klikom na sledećem linku:
-&lt;a href="https://blog.kokanovic.org/meshtastic-node-na-solar-u-srbiji/"target="_blank" rel="noopener"&gt;https://blog.kokanovic.org/meshtastic-node-na-solar-u-srbiji/&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
-&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;a href=&#34;https://blog.kokanovic.org/meshtastic-node-na-solar-u-srbiji/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.kokanovic.org/meshtastic-node-na-solar-u-srbiji/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

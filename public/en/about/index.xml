@@ -1,1 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Meshtastic Serbia and About Us</title><link>http://meshserbia.com/en/about/</link><description>Recent content in Meshtastic Serbia and About Us on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://meshserbia.com/en/about/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MeshSerbia – Meshtastic Serbia and About Us</title>
+    <link>http://localhost:1313/en/about/</link>
+    <description>Recent content in Meshtastic Serbia and About Us on MeshSerbia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
