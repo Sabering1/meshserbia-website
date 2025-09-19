@@ -1,18 +1,1 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MeshSerbia – Categories</title>
-    <link>http://localhost:1313/en/categories/</link>
-    <description>Recent content in Categories on MeshSerbia</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	  <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Categories</title><link>http://meshserbia.com/en/categories/</link><description>Recent content in Categories on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://meshserbia.com/en/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

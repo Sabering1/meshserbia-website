@@ -4,18 +4,18 @@
 
 
 ## Vesti
-- [Seeed Studio: Solarni Meshtastic nod za zajednicu](http://localhost:1313/blog/1.1-seeed/): U prethodnih par nedelja imao sam priliku da sarađujem sa jednim od hardver dizajnera Meshtastic … - Published 2025-07-30
-- [Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu](http://localhost:1313/blog/1.0-kokanovic/): Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na … - Published 2025-07-14
+- [Seeed Studio: Solarni Meshtastic nod za zajednicu](http://meshserbia.com/blog/1.1-seeed/): U prethodnih par nedelja imao sam priliku da sarađujem sa jednim od hardver dizajnera Meshtastic … - Published 2025-07-30
+- [Iskustvo člana zajednice: Kokanovićev blog o Meshtasticu](http://meshserbia.com/blog/1.0-kokanovic/): Kokanović je na svom blogu podelio svoja iskustva sa postavljanjem Meshtastic uređaja koji radi na … - Published 2025-07-14
 
 ## Početak
-- [Uvod](http://localhost:1313/docs/introdukcija/): Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
-- [Šta treba znati pre kupovine.](http://localhost:1313/docs/howtomakeanode/): 1. Tip uređaja Uređaji bazirani na nRF52 čipovima
+- [Uvod](http://meshserbia.com/docs/introdukcija/): Šta je Meshtastic? Meshtastic je open-source platforma koja omogućava korisnicima da komuniciraju … - Published 2025-04-13
+- [Šta treba znati pre kupovine.](http://meshserbia.com/docs/howtomakeanode/): 1. Tip uređaja Uređaji bazirani na nRF52 čipovima
 Uređaji koji koriste nRF52 čipove koriste manje … - Published 2025-04-13
-- [Povezivanje na mrežu](http://localhost:1313/docs/howtousemeshtastic/): Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i … - Published 2025-04-13
-- [Korišćenje aplikacije](http://localhost:1313/docs/howtomeshtastic/): Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne … - Published 2025-04-13
-- [Često postavljanja pitanja](http://localhost:1313/docs/cestopostavljanapitanja/): 🔰 Osnovna pitanja Koji je svrha MeshSerbia meshtastica? Da li je poenta da mogu da kontaktiram bilo … - Published 2025-04-13
-- [Napredna podešavanja](http://localhost:1313/docs/naprednapodesavanja/): Uskoro - Published 2025-04-13
-- [Solarni Ruter](http://localhost:1313/docs/solarnode/): Ovaj vodič vas vodi kroz postupak izrade solarnog rutera – ključnog uređaja za mesh infrastrukturu u … - Published 2025-04-13
+- [Povezivanje na mrežu](http://meshserbia.com/docs/howtousemeshtastic/): Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i … - Published 2025-04-13
+- [Korišćenje aplikacije](http://meshserbia.com/docs/howtomeshtastic/): Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne … - Published 2025-04-13
+- [Često postavljanja pitanja](http://meshserbia.com/docs/cestopostavljanapitanja/): 🔰 Osnovna pitanja Koji je svrha MeshSerbia meshtastica? Da li je poenta da mogu da kontaktiram bilo … - Published 2025-04-13
+- [Napredna podešavanja](http://meshserbia.com/docs/naprednapodesavanja/): Uskoro - Published 2025-04-13
+- [Solarni Ruter](http://meshserbia.com/docs/solarnode/): Ovaj vodič vas vodi kroz postupak izrade solarnog rutera – ključnog uređaja za mesh infrastrukturu u … - Published 2025-04-13
 
 ## Meshtastic Srbija i o nama
 
@@ -23,5 +23,5 @@ Uređaji koji koriste nRF52 čipove koriste manje … - Published 2025-04-13
 
 
 ---
-Generated on 2025-09-19 20:07:52 UTC
-Site: http://localhost:1313/
+Generated on 2025-09-19 20:08:26 UTC
+Site: http://meshserbia.com/
