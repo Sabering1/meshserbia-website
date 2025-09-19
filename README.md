@@ -1,1 +1,1 @@
-Todo-- Dodati kako se koristi
+Todo-- Dodati kako se koristi.
