@@ -4,7 +4,7 @@ draft: false
 title: 'Korišćenje aplikacije'
 weight: 4
 ---
-Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne brinite, jer ovaj vodič će vas provesti kroz sve tri opcije za korišćenje aplikacije: na Androidu, iPhoneu i Web klijentu. Samo izaberite sekciju ispod da biste započeli.
+Sada kada ste postavili svoj uređaj, možda se pitate kako da koristite Meshtastic aplikaciju. Ne brinite, jer ovaj vodič će vas provesti kroz sve tri opcije za korišćenje aplikacije: na Android-u, iPhone-u i Web klijentu. Samo izaberite sekciju ispod da biste započeli.
 
 
 {{< tabs items="📱🤖 Android,🍎📱 Apple ,🌐 Web klient" >}}
