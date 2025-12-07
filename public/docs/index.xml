@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MeshSerbia – Početak</title><link>http://meshserbia.com/docs/</link><description>Recent content in Početak on MeshSerbia</description><generator>Hugo -- gohugo.io</generator><language>sr_Latn</language><lastBuildDate>Sun, 13 Apr 2025 17:18:27 +0200</lastBuildDate><atom:link href="http://meshserbia.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Uvod</title><link>http://meshserbia.com/docs/introdukcija/</link><pubDate>Sun, 13 Apr 2025 20:06:28 +0200</pubDate><guid>http://meshserbia.com/docs/introdukcija/</guid><description>
 &lt;h2&gt;Šta je Meshtastic?&lt;span class="hx:absolute hx:-mt-20" id="šta-je-meshtastic"&gt;&lt;/span&gt;
-&lt;a href="#%c5%a1ta-je-meshtastic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je open-source platforma koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
+&lt;a href="#%c5%a1ta-je-meshtastic" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt; je platforma otvorenog libre koda koja omogućava korisnicima da komuniciraju preko uređaja sa malom potrošnjom energije, koristeći &lt;strong&gt;LoRa&lt;/strong&gt; (Long Range) tehnologiju za bežičnu komunikaciju na velikim udaljenostima (Kilometrima na otvorenom), bez potrebe za mobilnim ili Wi-Fi mrežama. Ovaj sistem omogućava lakše povezivanje u udaljenim područjima, van dometa tradicionalnih komunikacionih sistema.&lt;/p&gt;
 &lt;h3&gt;Tehnologija&lt;span class="hx:absolute hx:-mt-20" id="tehnologija"&gt;&lt;/span&gt;
 &lt;a href="#tehnologija" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Meshtastic koristi &lt;strong&gt;LoRa&lt;/strong&gt; modulaciju, koja omogućava bežičnu komunikaciju na udaljenostima od nekoliko kilometara, zavisno od terena. Uređaji koji koriste ovu tehnologiju mogu međusobno razmenjivati poruke, deliti lokaciju putem GPS-a, i biti povezani u mrežu koja ne zavisi od centralizovanih infrastruktura.&lt;/p&gt;
 &lt;h3&gt;Upotreba&lt;span class="hx:absolute hx:-mt-20" id="upotreba"&gt;&lt;/span&gt;
@@ -12,20 +12,26 @@
 &lt;/ul&gt;
 &lt;h3&gt;Šta mi je potrebno da počnem?&lt;span class="hx:absolute hx:-mt-20" id="šta-mi-je-potrebno-da-počnem"&gt;&lt;/span&gt;
 &lt;a href="#%c5%a1ta-mi-je-potrebno-da-po%c4%8dnem" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Da biste započeli korišćenje Meshtastic mreže, prvo je potrebno da nabavite uređaj koji je kompatibilan sa Meshtastic-om. Na sledećoj stranici nalaze se naše preporuke za uređaje koje možete koristiti. Takođe, preporučujemo da pažljivo pročitate ova uputstva do kraja.&lt;/p&gt;
-&lt;p&gt;Neki uređaji su veoma jednostavni za upotrebu i dolaze u formi &amp;ldquo;sve-u-jednom&amp;rdquo; paketa — poput SEED Trackera — koji je potrebno samo uključiti i spreman je za rad. Drugi uređaji zahtevaju kompleksniju konfiguraciju i više tehničkog znanja.&lt;/p&gt;
-&lt;p&gt;Biće vam potrebna i odgovarajuća antena. Antene koje dolaze uz uređaje često nisu dovoljne za postizanje velikog dometa, pa se preporučuje korišćenje kvalitetnijih, namenski pravljenih antena koje značajno poboljšavaju performanse.&lt;/p&gt;
-&lt;p&gt;Izgled i konstrukcija vašeg nod-a zavisiće od njegove namene:&lt;/p&gt;
+&lt;p&gt;Neki uređaji su veoma jednostavni za upotrebu i dolaze u formi &amp;ldquo;sve-u-jednom&amp;rdquo; paketa poput SEED L1 Pro koji je potrebno samo uključiti i spreman je za rad. Drugi uređaji zahtevaju kompleksniju konfiguraciju i više tehničkog znanja.&lt;/p&gt;
+&lt;p&gt;Biće vam potrebna i odgovarajuća antena. Antene koje dolaze uz DIY uređaje često nisu dovoljne za postizanje velikog dometa, pa se preporučuje korišćenje kvalitetnijih, namenski pravljenih antena koje značajno poboljšavaju performanse.&lt;/p&gt;
+&lt;p&gt;Izgled i konstrukcija vašeg uređaja zavisiće od njegove namene:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Stacionarni nod kod kuće&lt;/strong&gt;: Ako uređaj planirate da koristite kod kuće, preporučuje se ESP32 modul povezan na internet (kao klijent) sa boljom antenom za povećan domet.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Solarni repetitor&lt;/strong&gt;: Za ovu svrhu je ključna niska potrošnja energije i jaka antena. Preporučuje se korišćenje nRF52 čipa sa velikom antenom.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobilni nodovi&lt;/strong&gt;: Ako pravite prenosive uređaje koje ćete nositi sa sobom ili davati prijateljima koji nisu tehnički potkovani, birajte diskretne, elegantne i jednostavne za korišćenje nodove.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobilni nodovi&lt;/strong&gt;: Ako pravite prenosive uređaje koje ćete nositi sa sobom ili davati prijateljima koji nisu tehnički potkovani, prioritet dajte diskretnim, elegantnim i jednostavnim za korišćenje uređajima.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Kao što se vidi iz navedenih primera, oblik i funkcionalnost uređaja zavise od konkretnog scenarija upotrebe. Ne postoji univerzalno rešenje koje je idealno za sve situacije, zato je važno da pažljivo izaberete uređaj koji najbolje odgovara vašim potrebama.&lt;/p&gt;</description></item><item><title>Šta treba znati pre kupovine</title><link>http://meshserbia.com/docs/howtomakeanode/</link><pubDate>Sun, 13 Apr 2025 20:10:06 +0200</pubDate><guid>http://meshserbia.com/docs/howtomakeanode/</guid><description>
 &lt;div class="hextra-steps hx:ml-4 hx:mb-12 hx:ltr:border-l hx:rtl:border-r hx:border-gray-200 hx:ltr:pl-6 hx:rtl:pr-6 hx:dark:border-neutral-800 [counter-reset:step]"&gt;
-&lt;h3&gt;1. Tip uređaja&lt;span class="hx:absolute hx:-mt-20" id="1-tip-uređaja"&gt;&lt;/span&gt;
-&lt;a href="#1-tip-ure%c4%91aja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Uređaji bazirani na nRF52 čipovima&lt;/strong&gt;&lt;br&gt;
-Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom.&lt;/li&gt;
+&lt;h2&gt;Tip uređaja&lt;span class="hx:absolute hx:-mt-20" id="tip-uređaja"&gt;&lt;/span&gt;
+&lt;a href="#tip-ure%c4%91aja" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uređaji bazirani na ESP32 čipovima&lt;/strong&gt;&lt;br&gt;
+Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uređaji bazirani na nRF52 čipovima&lt;/strong&gt;&lt;br&gt;
+Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
@@ -33,15 +39,9 @@ Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth ili USB-a.&lt;/strong&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;ol start="2"&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Uređaji bazirani na ESP32 čipovima&lt;/strong&gt;&lt;br&gt;
-Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Uređaji sa novijim Semtech SX126x ili LR11xx serijama&lt;/strong&gt;&lt;br&gt;
-Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/p&gt;
-&lt;/li&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;&lt;strong&gt;Uređaji sa novijim Semtech SX126x ili LR11xx serijama&lt;/strong&gt;&lt;br&gt;
+Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-red-200 hx:bg-red-100 hx:text-red-900 hx:dark:border-red-200/30 hx:dark:bg-red-900/30 hx:dark:text-red-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/&gt;&lt;/svg&gt;&lt;/div&gt;
@@ -62,9 +62,9 @@ Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/p&
 &lt;tr&gt;
 &lt;th&gt;Uređaj&lt;/th&gt;
 &lt;th&gt;Čipset&lt;/th&gt;
-&lt;th&gt;Potrošnja energije&lt;/th&gt;
 &lt;th&gt;Cena&lt;/th&gt;
 &lt;th&gt;Prednosti&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -73,43 +73,45 @@ Preporučujemo uređaje sa novim Semtech SX126x ili LR11xx LoRa modulima.&lt;/p&
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;nRF52 + SX1262&lt;/td&gt;
-&lt;td&gt;🔋 Niska&lt;/td&gt;
 &lt;td&gt;30$&lt;/td&gt;
 &lt;td&gt;Pouzdan, odličan za solar&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html"target="_blank" rel="noopener"&gt;&lt;strong&gt;Seeed Card Tracker T1000-E&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;td&gt;&lt;a href="https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html"target="_blank" rel="noopener"&gt;&lt;strong&gt;Seeed L1&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;nRF52 + LR1120&lt;/td&gt;
-&lt;td&gt;🔋 Veoma niska&lt;/td&gt;
-&lt;td&gt;40$&lt;/td&gt;
-&lt;td&gt;Ultra-niska potrošnja, malen tracker format, staje u novcanik&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;T-Echo T114 V2&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;nRF52 + SX1262&lt;/td&gt;
-&lt;td&gt;🔋 Veoma niska&lt;/td&gt;
-&lt;td&gt;30-50$&lt;/td&gt;
-&lt;td&gt;Vibracija, ekran, baterija, GPS, direktno za teren&lt;/td&gt;
+&lt;td&gt;40$&lt;/td&gt;
+&lt;td&gt;Džojstik,vibracija,solar, efikasan za svakodnevnicu&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a href="https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html"target="_blank" rel="noopener"&gt;&lt;strong&gt;XIAO ESP32S3 &amp;amp; Wio-SX1262 Kit&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;td&gt;&lt;a href="https://heltec.org/project/mesh-node-t114/"target="_blank" rel="noopener"&gt;&lt;strong&gt;T-Echo T114 V2&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;ESP32-S3 + SX1262&lt;/td&gt;
-&lt;td&gt;🔌 Viša&lt;/td&gt;
-&lt;td&gt;10$&lt;/td&gt;
-&lt;td&gt;Veoma jeftin, Wi-Fi, pogodno za razvoj&lt;/td&gt;
+&lt;td&gt;nRF52 + SX1262&lt;/td&gt;
+&lt;td&gt;30-50$&lt;/td&gt;
+&lt;td&gt;Vibracija, ekran, baterija, GPS&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="https://heltec.org/project/wifi-lora-32-v4/"target="_blank" rel="noopener"&gt;&lt;strong&gt;Heltec LoRa V4&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ESP32 + SX1262&lt;/td&gt;
+&lt;td&gt;25$&lt;/td&gt;
+&lt;td&gt;Najjači TX od svih&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href="https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html"target="_blank" rel="noopener"&gt;&lt;strong&gt;XIAO nRF52840 + Wio SX1262 Kit&lt;/strong&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;nRF52 + SX1262&lt;/td&gt;
-&lt;td&gt;🔋 Veoma niska&lt;/td&gt;
 &lt;td&gt;14$&lt;/td&gt;
 &lt;td&gt;Ultra-mali, Najjeftiniji nRF52 chip&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -163,9 +165,8 @@ Tabela ispod sadrži antene koje preporučuje naša zajednica.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>Povezivanje na mrežu</title><link>http://meshserbia.com/docs/howtousemeshtastic/</link><pubDate>Sun, 13 Apr 2025 20:10:24 +0200</pubDate><guid>http://meshserbia.com/docs/howtousemeshtastic/</guid><description>
-&lt;p&gt;Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i Channel.
-Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju.
-Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom&lt;/p&gt;
+&lt;p&gt;Pre nego što počneš sa korišćenjem, važno je da uneseš sve parametre iz dva taba: LoRa i Channel.
+Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju. Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom.&lt;/p&gt;
 &lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
 &lt;div class="hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800"&gt;&lt;button
 class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
@@ -175,11 +176,7 @@ aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selec
 class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-1"&gt;🌐 MQTT&lt;/button&gt;&lt;button
-class="hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white"
-role="tab"
-type="button"
-aria-controls="tabs-panel-2"&gt;📡 Channel&lt;/button&gt;&lt;/div&gt;
+aria-controls="tabs-panel-1"&gt; 📡 Channel&lt;/button&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
 &lt;div
@@ -256,6 +253,44 @@ role="tabpanel" tabindex="0" data-state="selected" &gt;&lt;div class="hx:overflo
 &lt;div
 class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
 id="tabs-panel-1"
+role="tabpanel"&gt;&lt;ul&gt;
+&lt;li&gt;Omogući &lt;strong&gt;downlink&lt;/strong&gt; i &lt;strong&gt;uplink&lt;/strong&gt; na &lt;code&gt;MediumFast&lt;/code&gt; kanalu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Parametar&lt;/th&gt;
+&lt;th&gt;Vrednost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Channel Name&lt;/td&gt;
+&lt;td&gt;MediumFast&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PSK&lt;/td&gt;
+&lt;td&gt;AQ==&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uplink Enabled&lt;/td&gt;
+&lt;td&gt;✅ Uključeno&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Downlink Enabled&lt;/td&gt;
+&lt;td&gt;✅ Uključeno&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt; ako već nisi.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div
+class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
+id="tabs-panel-2"
 role="tabpanel"&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -334,59 +369,20 @@ role="tabpanel"&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Ako koristiš bluetooth i MQTT, uključi &lt;strong&gt;Proxy to client&lt;/strong&gt;, inače nećeš imati pristup MQTT mreži.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;
-&lt;div
-class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
-id="tabs-panel-2"
-role="tabpanel"&gt;&lt;ul&gt;
-&lt;li&gt;Omogući &lt;strong&gt;downlink&lt;/strong&gt; i &lt;strong&gt;uplink&lt;/strong&gt; na &lt;code&gt;MediumFast&lt;/code&gt; kanalu&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Parametar&lt;/th&gt;
-&lt;th&gt;Vrednost&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Channel Name&lt;/td&gt;
-&lt;td&gt;MediumFast&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;PSK&lt;/td&gt;
-&lt;td&gt;AQ==&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uplink Enabled&lt;/td&gt;
-&lt;td&gt;✅ Uključeno&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Downlink Enabled&lt;/td&gt;
-&lt;td&gt;✅ Uključeno&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
-&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;Warning&lt;/p&gt;
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Isključi opciju &lt;strong&gt;Ignore MQTT&lt;/strong&gt;, Uključi opciju &lt;strong&gt;OK to MQTT&lt;/strong&gt; ako već nisi.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2&gt;Prvo korišćenje&lt;span class="hx:absolute hx:-mt-20" id="prvo-korišćenje"&gt;&lt;/span&gt;
-&lt;a href="#prvo-kori%c5%a1%c4%87enje" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.&lt;/p&gt;
+&lt;!-- ## Prvo korišćenje dfsdfs --&gt;
+&lt;!--Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;div class="hx:select-none hx:text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;🌐&lt;/div&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;MQTT može biti nedostupan ako je trenutno deaktiviran radi testiranja; u tom slučaju najbolje je raspitati se u Telegram grupi.&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;🤖 Bot komande&lt;span class="hx:absolute hx:-mt-20" id="-bot-komande"&gt;&lt;/span&gt;
-&lt;a href="#-bot-komande" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ping&lt;/code&gt; – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;nodeinfo&lt;/code&gt; – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, komada se moze upotrebiti samo jednom na deset minuta&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weather&lt;/code&gt; – Komanda za vremensku prognozu, npr: &lt;code&gt;weather novi sad&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+#### 🤖 Bot komande
+- `ping` – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.
+- `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, komada se moze upotrebiti samo jednom na deset minuta
+- `weather` – Komanda za vremensku prognozu, npr: `weather novi sad`
+--&gt;
 &lt;h4&gt;📊 Grafana&lt;span class="hx:absolute hx:-mt-20" id="-grafana"&gt;&lt;/span&gt;
 &lt;a href="#-grafana" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Za pristup koristite korisničko ime &lt;code&gt;meshserbia&lt;/code&gt; i lozinku &lt;code&gt;meshserbia&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 1;"&gt;
@@ -581,9 +577,14 @@ role="tabpanel"&gt;&lt;p&gt;Aplikacija je dostupna na &lt;a href="https://apps.a
 class="hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block"
 id="tabs-panel-2"
 role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vašem internet pretrazivacu. Postoje tri načina za pristupanje web aplikaciji:&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Note&lt;/p&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Web aplikacija je dosta nepouzdana, treba je koristiti samo za slanje i primanje poruka.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;Hostovana verzija dostupna na client.meshtastic.org. (&lt;strong&gt;Preporučeno&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Direktno sa ESP32 nod-a putem meshtastic.local ili IP adrese uređaja. (&lt;strong&gt;nije&lt;/strong&gt; preporučeno)&lt;/li&gt;
 &lt;li&gt;Hosting na sopstvenom serveru. (Za napredne korisnike)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;img src="http://meshserbia.com/images/web-tutorial/1.0pregled.webp" width="600" loading="lazy"&gt;
@@ -800,7 +801,15 @@ role="tabpanel"&gt;&lt;p&gt;Meshtastic Web je klijent koji radi direktno u vaše
 &lt;blockquote&gt;
 &lt;p&gt;Možeš preko MQTT brokera i sopstvenog backend-a.&lt;/p&gt;
 &lt;/blockquote&gt;</description></item><item><title>Napredna podešavanja</title><link>http://meshserbia.com/docs/naprednapodesavanja/</link><pubDate>Sun, 13 Apr 2025 17:18:27 +0200</pubDate><guid>http://meshserbia.com/docs/naprednapodesavanja/</guid><description>
-&lt;p&gt;Uskoro&lt;/p&gt;</description></item><item><title>Solarni Ruter</title><link>http://meshserbia.com/docs/solarnode/</link><pubDate>Sun, 13 Apr 2025 20:10:51 +0200</pubDate><guid>http://meshserbia.com/docs/solarnode/</guid><description>
+&lt;p&gt;Korisni resursi:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://jugomesh.com/"target="_blank" rel="noopener"&gt;JugoMesh&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://telemetrija.sabering.xyz/q/UknZ12sKg"target="_blank" rel="noopener"&gt;Forum&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Solarni Ruter</title><link>http://meshserbia.com/docs/solarnode/</link><pubDate>Sun, 13 Apr 2025 20:10:51 +0200</pubDate><guid>http://meshserbia.com/docs/solarnode/</guid><description>
 &lt;p&gt;Ovaj vodič vas vodi kroz postupak izrade &lt;strong&gt;solarnog rutera&lt;/strong&gt; – ključnog uređaja za mesh infrastrukturu u Srbiji. Ako nemate tehničko znanje ili ne želite sami da pravite uređaj, uvek možete kupiti gotov solarni ruter od proizvođača poput RAK ili SEEED P1 Pro solar ruter, čiju recenziju možete pronaći u sekciji vesti. Prednost izrade sopstvenog rutera je u tome što kroz proces učite elektroniku, sastavljate uređaj koji je idealno prilagođen vašim potrebama i imate gotovo neograničene mogućnosti prilagođavanja, poput dodavanja filtera za signal i drugih modifikacija. Ako ipak ne želite da prolazite kroz taj proces, preporuka je da nabavite već gotov uređaj.&lt;/p&gt;
 &lt;p&gt;Pošto je sam proces kompleksan, zajednica je pripremila &lt;strong&gt;YouTube video&lt;/strong&gt; koji detaljno prikazuje sve korake za konstruisanje jednog funkcionalnog repetitora.&lt;/p&gt;
 &lt;h3&gt;Pre nego što počnemo, proći ćemo kroz sledeće stavke:&lt;span class="hx:absolute hx:-mt-20" id="pre-nego-što-počnemo-proći-ćemo-kroz-sledeće-stavke"&gt;&lt;/span&gt;

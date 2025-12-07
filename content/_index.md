@@ -58,7 +58,7 @@ layout: hextra-home
 </div>
 
 <div class="hx:mb-4">
-{{< hextra/hero-button text="Počni odmah" link="docs" >}}
+{{< hextra/hero-button text="Počni odmah" link="docs/introdukcija/" >}}
 </div>
 
 {{< hextra/feature-grid class="hx:gap-4 feature-grid" >}}

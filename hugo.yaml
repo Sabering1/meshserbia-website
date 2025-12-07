@@ -55,10 +55,10 @@ menu:
   main:
     - identifier: documentation
       name: Dokumentacija
-      pageRef: /docs
+      pageRef: /docs/introdukcija/
       weight: 1
     - identifier: showcase
-      name: Galerija
+      name: Mapa
       pageRef: /showcase
       weight: 2
     - identifier: blog
@@ -75,12 +75,12 @@ menu:
         type: search
     - name: Telegram
       weight: 7
-      url: "https://t.me/meshtasticsrb"
+      url: "https://telemetrija.sabering.xyz/q/yMrziYWlf"
       params:
         icon: telegram
     - name: Forum
       weight: 6
-      url: "https://github.com/Sabering1/meshserbia-website/discussions"
+      url: "https://telemetrija.sabering.xyz/q/UknZ12sKg"
       params:
         type: link
         icon: github

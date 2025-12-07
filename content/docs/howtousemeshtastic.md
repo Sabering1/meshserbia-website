@@ -4,12 +4,10 @@ draft: false
 title: 'Povezivanje na mrežu'
 weight: 3
 ---
-Pre nego što počneš sa konfiguracijom, važno je da uneseš sve parametre iz tri taba: LoRa, MQTT i Channel.
-Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju.
-Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom
+Pre nego što počneš sa korišćenjem, važno je da uneseš sve parametre iz dva taba: LoRa i Channel.
+Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju. Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom.
 
-
-{{< tabs items="📶 LoRa,🌐 MQTT,📡 Channel" >}}
+{{< tabs items="📶 LoRa, 📡 Channel" >}}
 
   {{< tab >}}
   
@@ -30,6 +28,23 @@ Isključi opciju **Ignore MQTT**, Uključi opciju **OK to MQTT**
 | Frequency slot           | 1                    | Ne diraj                                                                     |
 | Override Duty Cycle      | ❌ (isključeno)      |  Prekoračuje pravila EU o dozvoljenom emitovanju                 |
 | Ignore incoming          | ❌ (isključeno)      | Ako uključiš, uređaj ignoriše sve dolazne poruke (ne preporučuje se)        |
+
+  {{< /tab >}}
+
+  {{< tab >}}
+
+
+- Omogući **downlink** i **uplink** na `MediumFast` kanalu  
+
+| Parametar         | Vrednost     |
+|-------------------|--------------|
+| Channel Name      | MediumFast   |
+| PSK               | AQ==         |
+| Uplink Enabled    | ✅ Uključeno |
+| Downlink Enabled  | ✅ Uključeno |
+
+> [!WARNING]
+> Isključi opciju **Ignore MQTT**, Uključi opciju **OK to MQTT** ako već nisi.
 
   {{< /tab >}}
 
@@ -58,30 +73,14 @@ Nakon podešavanja MQTT-a, obavezno **restartuj** uređaj. Postoji bug u firmwar
 > [!TIP]
 > Ako koristiš bluetooth i MQTT, uključi **Proxy to client**, inače nećeš imati pristup MQTT mreži.
 
-  {{< /tab >}}
-
-  {{< tab >}}
-
-
-- Omogući **downlink** i **uplink** na `MediumFast` kanalu  
-
-| Parametar         | Vrednost     |
-|-------------------|--------------|
-| Channel Name      | MediumFast   |
-| PSK               | AQ==         |
-| Uplink Enabled    | ✅ Uključeno |
-| Downlink Enabled  | ✅ Uključeno |
-
-> [!WARNING]
-> Isključi opciju **Ignore MQTT**, Uključi opciju **OK to MQTT** ako već nisi.
 
   {{< /tab >}}
 
 {{< /tabs >}}
 
-## Prvo korišćenje
+<!-- ## Prvo korišćenje dfsdfs -->
 
-Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.
+<!--Nakon sto ste podesili sve opcije, vreme je da se pridružite mreži, napišite jednu od dole navedenih komandi da testirate MQTT servis. Ako ne vidite poruke, možda je potrebno da proće 10 minuta pre nego što se povežete.
 
 {{< callout emoji="🌐" >}}
 MQTT može biti nedostupan ako je trenutno deaktiviran radi testiranja; u tom slučaju najbolje je raspitati se u Telegram grupi.
@@ -92,6 +91,7 @@ MQTT može biti nedostupan ako je trenutno deaktiviran radi testiranja; u tom sl
 - `ping` – Komanda za testiranja da li uredjaj povezan na MQTT mrežu.
 - `nodeinfo` – Informacije o svim nodovima koji su bili online u poslednjih sat vremena, komada se moze upotrebiti samo jednom na deset minuta
 - `weather` – Komanda za vremensku prognozu, npr: `weather novi sad`
+-->
 
 #### 📊 Grafana
 
