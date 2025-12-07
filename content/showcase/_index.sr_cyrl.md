@@ -4,7 +4,13 @@ description: "Неке од примера meshtastic нодова у Србиј
 toc: false
 layout: wide
 ---
-
+<div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.12);">
+  <iframe
+    src="https://jugomesh.com/embed/map"
+    style="width:100%; height:600px; border:none;"
+    loading="lazy">
+  </iframe>
+</div>
 <div class="hx:mt-4"></div>
 
 <p class="hx:mb-12 hx:text-center hx:text-lg hx:text-gray-500 hx:dark:text-gray-400">

@@ -9,7 +9,7 @@ enableEmoji: true
 
 outputs:
   home: [HTML, llms]
-  page: [HTML]
+  page: [HTML, llms]
   section: [HTML, RSS]
 
 # Ova podsekcija definise koje jezike ce sajt prikazivati
@@ -104,8 +104,9 @@ menu:
       weight: 3
 
 params:
-  description: "Pridruži se najvećoj Srpskoj Meshtastic zajednici na medium_fast kanalu!"
-  keywords: ["mesh", "serbia", "meshtastic"]
+  description: "MeshSerbia je najveća srpska zajednica posvećena Meshtastic mreži. Jasni vodiči, praktični tutorijali i saveti za izradu meshtastic uređaja. Centralno mesto za svakoga ko želi stabilnu, otvorenu i pouzdanu mesh komunikaciju u Srbiji.!"
+  keywords: ["meshtastic serbia", "mesh serbia", "mesh mreža srbija", "lora mesh srbija", "meshtastic community serbia", "meshtastic čvorovi", "lora nodovi srbija", "meshtastic guide", "meshtastic tutorials", "meshtastic setup", "meshtastic mqtt integration", "meshtastic internet gateway", "meshtastic solar node", "mesh networking serbia", "offline communication serbia", "lora communication serbia", "long range mesh", "meshtastic android", "meshtastic firmware", "meshtastic hardware", "meshtastic projects serbia", "meshserbia", "meshserbia community", "meshtastic regional network", "open-source mesh serbia", "distributed communication serbia", "ad-hoc komunikacija", "radio mesh mreže", "mesh komunikacija balkan", "lora diy projekti"]
+
   externalLinkDecoration: true
   banner:
     key: "announcement"

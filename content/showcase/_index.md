@@ -7,7 +7,7 @@ layout: wide
 
 <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.12);">
   <iframe
-    src="https://jugomesh.com/map"
+    src="https://jugomesh.com/embed/map"
     style="width:100%; height:600px; border:none;"
     loading="lazy">
   </iframe>
