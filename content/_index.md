@@ -44,7 +44,7 @@ layout: hextra-home
 
 {{< hextra/hero-badge link="https://meshtastic.org/e/" >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400 dot"></div>
-  <span>Pridruži nam se na Medium_Fast kanalu</span>
+  <span>Pridruži nam se na Srbija kanalu</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
@@ -85,14 +85,14 @@ layout: hextra-home
 {{< hextra/feature-card
     link="https://meshtastic.org"
     title="Šta je Meshtastic?"
-    subtitle="Open-source LoRa mreža za slanje poruka bez interneta, idealna za planinarenje, vanredne situacije i DIY projekte."
+    subtitle="Decentralizovana LoRa mreža za slanje poruka bez interneta, idealna za planinarenje, vanredne situacije, vikendice, selo i DIY projekte."
     class="hx:aspect:auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
     imageClass="hx:top-[40%] hx:left-[20px] hx:w-[110%] hx:dark:opacity-80 card-icon"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(57, 255, 20, 0.18), hsla(0, 0%, 100%, 0));"
 >}}
 
 {{< hextra/feature-card
-    link="https://meshserbia.com/docs"
+    link="https://meshserbia.com/docs/introdukcija/"
     title="Vodiči i tutorijali"
     subtitle="Od prvog podešavanja do naprednih opcija kao što su solarni nodovi, MQTT integracija i senzori."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
@@ -102,8 +102,8 @@ layout: hextra-home
 
 {{< hextra/feature-card
     link="https://meshserbia.com/docs/solarnode"
-    title="Solarni nodovi i pokrivenost"
-    subtitle="Napravi sopstveni autonomni Meshtastic nod sa solarnim napajanjem za planinu, selo ili vikendicu."
+    title="Solarni uređaji"
+    subtitle="Napravi sopstveni autonomni Meshtastic uređaji sa solarnim napajanjem za planinu, selo ili vikendicu."
     class="hx:aspect-auto hx:md:aspect-[1/1] hx:max-md:min-h-[180px] hx:py-4 hx:px-4 feature-card"
     imageClass="hx:top-[36%] hx:left-[28px] hx:w-[100%] hx:dark:opacity-80 card-icon"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(255,165,0,0.18), hsla(0,0%,100%,0));"
@@ -112,7 +112,7 @@ layout: hextra-home
 {{< hextra/feature-card
     link="https://t.me/meshtasticsrb"
     title="Zajednica iz Srbije"
-    subtitle="Poveži se sa domaćim korisnicima, podeli iskustvo i pridruži se našem Telegram četu ili GitHub projektima."
+    subtitle="Pridruži se domaćim korisnicima, prati iskustva iz prakse i poveži se sa ljudima koji već grade Meshtastic mrežu Srbije."
     class="feature-card"
     style="background: linear-gradient(to right, rgba(255, 0, 0, 0.40), rgba(0, 0, 255, 0.40), rgba(255, 255, 255, 0.40));"
   >}}
@@ -120,7 +120,7 @@ layout: hextra-home
 {{< hextra/feature-card
     link="https://t.me/meshtasticsrb"
     title="Radi svuda, bez mreže"
-    subtitle="Šalji poruke i kad nema interneta ili signala, bez SIM kartica, bez plaćanja, samo uz uređaje."
+    subtitle="Šalji poruke i kad nema interneta ili signala, bez SIM kartica, bez plaćanja, samo uz meshtastic uređaje."
     class="feature-card"
   >}}
 

@@ -1,6 +1,7 @@
 baseURL: https://meshserbia.com
-languageCode: en-us
+locale: sr-Latn
 title: MeshSerbia
+
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -9,30 +10,26 @@ enableEmoji: true
 
 outputs:
   home: [HTML, llms]
-  page: [HTML, llms]
-  section: [HTML, RSS]
-
-# Ova podsekcija definise koje jezike ce sajt prikazivati
+  page: [HTML, llms, markdown]
+  section: [HTML, RSS, markdown]
 
 defaultContentLanguage: sr_Latn
 languages:
   en:
-    languageName: English
-    languageCode: en
+    label: English
+    locale: en
     weight: 1
     title: MeshSerbia
   sr_Latn:
-    languageName: Srpski - Latinica
-    languageCode: sr_Latn
+    label: Srpski - Latinica
+    locale: sr-Latn
     weight: 2
     title: MeshSerbia
   sr_Cyrl:
-    languageName: Српски - Ћирилица
-    languageCode: sr_Cyrl
+    label: Српски - Ћирилица
+    locale: sr-Cyrl
     weight: 3
     title: MeshSerbia
-
-#Bog zna sta ovo radi
 
 markup:
   highlight:
@@ -48,8 +45,6 @@ markup:
         enable: true
 
 enableInlineShortcodes: true
-
-#Gore onaj menu gde se nalaze dugmici
 
 menu:
   main:
@@ -73,20 +68,17 @@ menu:
       weight: 5
       params:
         type: search
-    - name: Telegram
-      weight: 7
-      url: "https://telemetrija.sabering.xyz/q/yMrziYWlf"
-      params:
-        icon: telegram
     - name: Forum
       weight: 6
       url: "https://telemetrija.sabering.xyz/q/UknZ12sKg"
       params:
         type: link
         icon: github
-        
-
-#Sidebar koji se nalazi sa leve strane, uvek aktivan statican
+    - name: Telegram
+      weight: 7
+      url: "https://telemetrija.sabering.xyz/q/yMrziYWlf"
+      params:
+        icon: telegram
 
   sidebar:
     - identifier: more
@@ -95,41 +87,60 @@ menu:
         type: separator
       weight: 1
     - identifier: about
-      name: "O nama"
-      pageRef: "/about"
+      name: O nama
+      pageRef: /about
       weight: 2
     - identifier: MeshDocs
-      name: "Zvanični Meshtastic® site ↗"
+      name: Zvanični Meshtastic® site ↗
       url: "https://meshtastic.org/"
       weight: 3
 
 params:
   description: "MeshSerbia je najveća srpska zajednica posvećena Meshtastic mreži. Jasni vodiči, praktični tutorijali i saveti za izradu meshtastic uređaja. Centralno mesto za svakoga ko želi stabilnu, otvorenu i pouzdanu mesh komunikaciju u Srbiji.!"
-  keywords: ["meshtastic serbia", "mesh serbia", "mesh mreža srbija", "lora mesh srbija", "meshtastic community serbia", "meshtastic čvorovi", "lora nodovi srbija", "meshtastic guide", "meshtastic tutorials", "meshtastic setup", "meshtastic mqtt integration", "meshtastic internet gateway", "meshtastic solar node", "mesh networking serbia", "offline communication serbia", "lora communication serbia", "long range mesh", "meshtastic android", "meshtastic firmware", "meshtastic hardware", "meshtastic projects serbia", "meshserbia", "meshserbia community", "meshtastic regional network", "open-source mesh serbia", "distributed communication serbia", "ad-hoc komunikacija", "radio mesh mreže", "mesh komunikacija balkan", "lora diy projekti"]
+  keywords:
+    - "meshtastic serbia"
+    - "mesh serbia"
+    - "mesh mreža srbija"
+    - "lora mesh srbija"
+    - "meshtastic community serbia"
+    - "meshtastic čvorovi"
+    - "lora nodovi srbija"
+    - "meshtastic guide"
+    - "meshtastic tutorials"
+    - "meshtastic setup"
+    - "meshtastic mqtt integration"
+    - "meshtastic internet gateway"
+    - "meshtastic solar node"
+    - "mesh networking serbia"
+    - "offline communication serbia"
+    - "lora communication serbia"
+    - "long range mesh"
+    - "meshtastic android"
+    - "meshtastic firmware"
+    - "meshtastic hardware"
+    - "meshtastic projects serbia"
+    - "meshserbia"
+    - "meshserbia community"
+    - "meshtastic regional network"
+    - "open-source mesh serbia"
+    - "distributed communication serbia"
+    - "ad-hoc komunikacija"
+    - "radio mesh mreže"
+    - "mesh komunikacija balkan"
+    - "lora diy projekti"
 
   externalLinkDecoration: true
+
   banner:
     key: "announcement"
     message: "VAŽNO: Zbog zagušenja mreže, pređite na novi kanal `Srbija` radi stabilne komunikacije"
+
   analytics:
     umami:
       serverURL: "https://telemetrija.sabering.xyz"
       websiteID: "e207074d-b695-4f3a-a9e7-10323e14425d"
-      scriptName: "script.js" # optional (default: umami.js)
-      # https://umami.is/docs/tracker-configuration#data-host-url
-      # hostURL: "http://stats.example.org" # optional
-      # https://umami.is/docs/tracker-configuration#data-auto-track
-      # autoTrack: "false" # optional
-      # https://umami.is/docs/tracker-configuration#data-tag
-      # domains: "example.net,example.org" # optional
-      # https://umami.is/docs/tracker-configuration#data-exclude-search
-      # tag: "umami-eu" # optional
-      # https://umami.is/docs/tracker-configuration#data-exclude-hash
-      # excludeSearch: "true" # optional
-      # https://umami.is/docs/tracker-configuration#data-do-not-track
-      # excludeHash: "true" # optional
-      # https://umami.is/docs/tracker-configuration#data-domains
-      # doNotTrack: "true" # optional
+      scriptName: "script.js"
+
   comments:
     enable: true
     type: giscus
@@ -144,8 +155,6 @@ params:
       strict: "1"
       mapping: "pathname"
 
-# Slika za logo
-
   navbar:
     displayTitle: true
     displayLogo: true
@@ -158,17 +167,18 @@ params:
     width: wide
 
   page:
-    # full (100%), wide (90rem), normal (1280px)
     width: normal
-
-# Ovo definise temu websajta, trenutno je na automatsko
+    contextMenu:
+      enable: true
+      links:
+        - name: "Pitaj ChatGPT"
+          url: "https://chatgpt.com?content={markdown_url}"
+          icon: "sparkles"
+    
 
   theme:
-    # light | dark | system
     default: system
     displayToggle: true
-
-# Footer, ovde se nalazi menjanje teme i jezika web sajta
 
   footer:
     enable: true
@@ -176,36 +186,25 @@ params:
     displayPoweredBy: false
     width: normal
 
-  # Display the last modification date
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
 
-  # Search
-  # flexsearch is enabled by default
   search:
     enable: true
     type: flexsearch
-
     flexsearch:
-      # index page by: content | summary | heading | title
       index: content
-      # full | forward | reverse | strict
-      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
 
   blog:
     list:
       displayTags: true
-      # date | lastmod | publishDate | title | weight
       sortBy: date
-      sortOrder: desc # or "asc"
-    
+      sortOrder: desc
     article:
       displayPagination: true
 
   highlight:
     copy:
       enable: true
-      # hover | always
       display: hover
-

@@ -10,13 +10,13 @@ toc: true
 ## Tip uređaja
 
 1. **Uređaji bazirani na ESP32 čipovima**  
-Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na WiFi mrežu. Ako planirate da povežete uređaj na WIFI i da koristi USB napajanje onda je ovo naša preporuka.
+Uređaji sa ESP32 čipom zahtevaju više energije za rad, ali su obično jeftiniji od nRF52 i treba ih koristiti sa USB napajanjem, posebno ako planirate da ih povežete na Wi-Fi mrežu. Ako planirate da povežete uređaj na Wi-Fi i da koristi USB napajanje onda je ovo naša preporuka.
 
 2. **Uređaji bazirani na nRF52 čipovima**  
 Uređaji koji koriste nRF52 čipove koriste manje energije u poređenju sa ESP32 uređajima, što ih čini idealnim za solarne aplikacije i mobilne uređaje. nRF52 mogu izdržati na jednom punjenju do mesec dana za razliku od ESP32. Ako planirate da ih nosite sa sobom ili pravite solarni repetitor onda izaberite uređaj sa ovim čipom. 
 
 {{< callout type="info" >}}
-**nRF52 se ne može povezati na WIFI mrežu, već samo preko bluetooth ili USB-a.**
+**nRF52 se ne može povezati na Wi-Fi mrežu, već samo preko bluetooth ili USB-a.**
 {{< /callout >}}
 
 3. **Uređaji sa novijim Semtech SX126x ili LR11xx serijama**  
@@ -34,13 +34,14 @@ Meshtastic može biti instaliran na širok broj uređaja. Iako mnogo više uređ
 > Meshtastic mreža u Srbiji koristi 868 MHz. Obratite pažnju kad kupujete.
 
 
-| Uređaj                                                                                                                   | Čipset           | Cena        | Prednosti                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-------------|-------------------------------------------------------------|
-| [**RAK Meshtastic Start Kit: RAK19007+RAK4631**](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit) | nRF52 + SX1262   | 30$         | Pouzdan, odličan za solar                                                 |
-| [**Seeed L1**](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html)                                               | nRF52 + SX1262   | 40$         | Džojstik,vibracija,solar, efikasan za svakodnevnicu                       |
-| [**T-Echo T114 V2**](https://heltec.org/project/mesh-node-t114/)                                                          | nRF52 + SX1262   | 30-50$      | Vibracija, ekran, baterija, GPS                                           | 
-| [**Heltec LoRa V4**](https://heltec.org/project/wifi-lora-32-v4/)                                                        | ESP32 + SX1262   | 25$         | Najjači TX od svih                                                        | 
-| [**XIAO nRF52840 + Wio SX1262 Kit**](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)| nRF52 + SX1262   | 14$         | Ultra-mali, Najjeftiniji nRF52 chip                                       |
+| Uređaj | Čipset | Cena | Prednosti |
+| --- | --- | --- | --- |
+| **[RAK Meshtastic Start Kit: RAK19007+RAK4631](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit)** | nRF52 + SX1262 | 30$ | Pouzdan, odličan za solar |
+| **[Seeed L1](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html)** | nRF52 + SX1262 | 40$ | Džojstik, vibracija, solar, efikasan za svakodnevnicu |
+| **[Heltec T096](https://heltec.org/project/t096/)** | nRF52 + SX1262 | 30-50$ | Ekran, solar, GPS |
+| **[Heltec LoRa V4](https://heltec.org/project/wifi-lora-32-v4/)** | ESP32 + SX1262 | 25$ | Najjači TX od svih |
+| **[XIAO nRF52840 + Wio SX1262 Kit](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** | nRF52 + SX1262 | 14$ | Ultra-mali, Najjeftiniji nRF52 chip |
+
 
 
 ## Preporučene antene

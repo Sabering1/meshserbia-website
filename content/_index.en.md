@@ -40,7 +40,7 @@ layout: hextra-home
 
 {{< hextra/hero-badge link="https://meshtastic.org/e/" >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400 dot"></div>
-  <span>Join the Medium_Fast channel</span>
+  <span>Join the Serbia channel</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 

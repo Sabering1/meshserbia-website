@@ -7,7 +7,7 @@ weight: 3
 Pre nego što počneš sa korišćenjem, važno je da uneseš sve parametre iz dva taba: LoRa i Channel.
 Klikni na svaki tab i unesi preporučene vrednosti u svom uređaju. Ovo je neophodno da bi uređaj ispravno komunicirao sa mrežom.
 
-{{< tabs items="📶 LoRa, 📡 Channel" >}}
+{{< tabs name="📶 LoRa, 📡 Channel" >}}
 
   {{< tab >}}
   
